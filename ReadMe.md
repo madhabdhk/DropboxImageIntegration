@@ -1,5 +1,3 @@
-### This example is not fully up to date, please see [our latest example](../DropboxAndroid)
-
 # Example Android application (using the Dropbox SDK for Java.)
 
 This shows the Dropbox API authorization flow and some API calls to retrieve files.
@@ -30,3 +28,5 @@ If you don't have Android Studio, you can use the command-line:
 The Dropbox Java SDK supports ProGuard class file shrinking optimizations. The only requirements to
 your ProGuard configuration are to ensure [Jackson Databind](https://github.com/FasterXML/jackson-databind)
 classes are handled correctly and annotations are kept. See [proguard-rules.pro](proguard-rules.pro) for an example.
+
+This app also allow to scan any barcode to give the image title as a job level then prompt you to take a photo and then upload it. 
