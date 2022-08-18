@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/borderblue"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take another picture"
+        android:textStyle="bold"
+        android:id="@+id/text"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:textColor="#fff"
+            android:id="@+id/button_selectmore"
+            android:layout_weight="1"
+            android:background="@drawable/buttoncorner"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NO"
+            android:textColor="#fff"
+            android:id="@+id/button_cancel"
+            android:layout_weight="1"
+            android:background="@drawable/buttoncorner"
+            android:layout_marginLeft="2dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+com.dropbox.core.examples.android-coordinatorlayout-1.1.0-0 C:\Users\mdhakal\.gradle\caches\transforms-3\2804b38a50a50b0b3725e25b0cd8707c\transformed\coordinatorlayout-1.1.0\res
+com.dropbox.core.examples.android-core-1.1.0-1 C:\Users\mdhakal\.gradle\caches\transforms-3\3d102c6224c72669675d14cbb57e3e6d\transformed\core-1.1.0\res
+com.dropbox.core.examples.android-cardview-1.0.0-2 C:\Users\mdhakal\.gradle\caches\transforms-3\4768263f9c3f22fe613ae9b2c0500b60\transformed\cardview-1.0.0\res
+com.dropbox.core.examples.android-transition-1.2.0-3 C:\Users\mdhakal\.gradle\caches\transforms-3\76885ae66b01e871b74f216a7d2cad80\transformed\transition-1.2.0\res
+com.dropbox.core.examples.android-material-1.1.0-4 C:\Users\mdhakal\.gradle\caches\transforms-3\92a900dc31f0021638fee761a650f30c\transformed\material-1.1.0\res
+com.dropbox.core.examples.android-appcompat-resources-1.1.0-5 C:\Users\mdhakal\.gradle\caches\transforms-3\a078bca1ca474490997d8b18a5d30ee0\transformed\appcompat-resources-1.1.0\res
+com.dropbox.core.examples.android-appcompat-1.1.0-6 C:\Users\mdhakal\.gradle\caches\transforms-3\cd263b48350bd0fba682a79f0305b9a4\transformed\appcompat-1.1.0\res
+com.dropbox.core.examples.android-viewpager2-1.0.0-7 C:\Users\mdhakal\.gradle\caches\transforms-3\d32e9a829c6e907990ee6b872a2349b1\transformed\viewpager2-1.0.0\res
+com.dropbox.core.examples.android-recyclerview-1.1.0-8 C:\Users\mdhakal\.gradle\caches\transforms-3\ee72e1848fd7131c7180a7345a34bfe9\transformed\recyclerview-1.1.0\res
+com.dropbox.core.examples.android-zxing-android-embedded-4.3.0-9 C:\Users\mdhakal\.gradle\caches\transforms-3\fae3a1278cb76b179f1583e5ba6a8b41\transformed\zxing-android-embedded-4.3.0\res
+com.dropbox.core.examples.android-pngs-10 C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\build\generated\res\pngs\debug
+com.dropbox.core.examples.android-resValues-11 C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\build\generated\res\resValues\debug
+com.dropbox.core.examples.android-rs-12 C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\build\generated\res\rs\debug
+com.dropbox.core.examples.android-mergeDebugResources-13 C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.dropbox.core.examples.android-mergeDebugResources-14 C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.dropbox.core.examples.android-merged_res-15 C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\build\intermediates\merged_res\debug
+com.dropbox.core.examples.android-debug-16 C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\debug\res
+com.dropbox.core.examples.android-main-17 C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\res

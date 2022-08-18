@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mdhakal/AndroidStudioProjects/Barcode Scanner Android/V4/src/main/res/drawable/mybutton.xml" value="0.1845" />
+        <entry key="..\:/Users/mdhakal/AndroidStudioProjects/Barcode Scanner Android/V4/src/main/res/layout-v21/app_bar.xml" value="0.17604166666666668" />
+        <entry key="..\:/Users/mdhakal/AndroidStudioProjects/Barcode Scanner Android/V4/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/mdhakal/AndroidStudioProjects/Barcode Scanner Android/V4/src/main/res/layout/activity_user.xml" value="0.18" />
+        <entry key="..\:/Users/mdhakal/AndroidStudioProjects/Barcode Scanner Android/V4/src/main/res/layout/app_bar.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/mdhakal/AndroidStudioProjects/Barcode Scanner Android/V4/src/main/res/layout/cust_dialog.xml" value="0.2" />
+        <entry key="..\:/Users/mdhakal/AndroidStudioProjects/Barcode Scanner Android/V4/src/main/res/layout/splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mdhakal/AndroidStudioProjects/Barcode Scanner Android/V4/src/main/res/menu/main_menu.xml" value="0.17604166666666668" />
+        <entry key="..\:/Users/mdhakal/AndroidStudioProjects/Barcode Scanner Android/Vr2/android/src/main/res/drawable-hdpi/buttoncorner.xml" value="0.1395" />
+        <entry key="..\:/Users/mdhakal/AndroidStudioProjects/Barcode Scanner Android/Vr2/android/src/main/res/layout/activity_files.xml" value="0.2" />
+        <entry key="..\:/Users/mdhakal/AndroidStudioProjects/Barcode Scanner Android/Vr2/android/src/main/res/layout/activity_open_with.xml" value="0.22708333333333333" />
+        <entry key="..\:/Users/mdhakal/AndroidStudioProjects/Barcode Scanner Android/Vr2/android/src/main/res/layout/activity_user.xml" value="0.25" />
+        <entry key="..\:/Users/mdhakal/AndroidStudioProjects/Barcode Scanner Android/Vr2/android/src/main/res/layout/file_paths.xml" value="0.10552536231884058" />
+        <entry key="..\:/Users/mdhakal/AndroidStudioProjects/Barcode Scanner Android/Vr2/android/src/main/res/layout/files_item.xml" value="0.10552536231884058" />
+        <entry key="..\:/Users/mdhakal/AndroidStudioProjects/Barcode Scanner Android/Vr2/android/src/main/res/layout/splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mdhakal/AndroidStudioProjects/Barcode Scanner Android/Vr6/src/main/res/layout/activity_scanner.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/mdhakal/AndroidStudioProjects/Barcode Scanner Android/Vr6/src/main/res/layout/activity_user.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/mdhakal/Desktop/Latest Projects/android/src/main/res/layout/activity_user.xml" value="0.16" />
+        <entry key="..\:/Users/mdhakal/Desktop/Latest Projects/android/src/main/res/layout/splash.xml" value="0.25" />
+        <entry key="..\:/Users/mdhakal/Desktop/Latest Projects/android/src/main/res/layout/splash_background.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/mdhakal/Desktop/Latest Projects/android/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1675" />
+        <entry key="..\:/source/dev/androidapps/DropboxIntegration Vr3 - Maddy/src/main/res/drawable-xhdpi/ic_launcher_background.xml" value="0.192" />
+        <entry key="..\:/source/dev/androidapps/DropboxIntegration Vr3 - Maddy/src/main/res/layout/activity_help.xml" value="0.17147922998986828" />
+        <entry key="..\:/source/dev/androidapps/DropboxIntegration Vr3 - Maddy/src/main/res/layout/activity_user.xml" value="0.15307971014492755" />
+        <entry key="..\:/source/dev/androidapps/POD Dropbox Integration Vr4/src/main/res/layout/activity_user.xml" value="0.17831813576494426" />
+        <entry key="..\:/source/dev/androidapps/POD Dropbox Integration Vr4/src/main/res/layout/splash.xml" value="0.17831813576494426" />
+        <entry key="..\:/source/dev/androidapps/POD Dropbox Integration Vr5/src/main/res/layout/activity_user.xml" value="0.17831813576494426" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

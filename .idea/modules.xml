@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DropboxImageIntegration.iml" filepath="$PROJECT_DIR$/.idea/modules/DropboxImageIntegration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DropboxImageIntegration.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/DropboxImageIntegration.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/760150068/DropboxImageIntegration.dropbox-sdk-java.iml" filepath="$PROJECT_DIR$/.idea/modules/760150068/DropboxImageIntegration.dropbox-sdk-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DropboxImageIntegration.main.iml" filepath="$PROJECT_DIR$/.idea/modules/DropboxImageIntegration.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DropboxImageIntegration.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/DropboxImageIntegration.unitTest.iml" />
+    </modules>
+  </component>
+</project>

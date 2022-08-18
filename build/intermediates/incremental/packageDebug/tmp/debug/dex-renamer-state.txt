@@ -1,0 +1,4 @@
+#Thu Aug 18 11:23:51 AEST 2022
+base.0=C\:\\Users\\mdhakal\\Desktop\\Android Apps APK\\POD Dropbox Integration Vr5\\build\\intermediates\\dex\\debug\\minifyDebugWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
