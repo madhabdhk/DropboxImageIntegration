@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Wideline Barcode Scanner</string>
+    <string name="app_name">Barcode Scanner</string>
     <!-- Change this to your app key -->
     <string name="app_key">srs3n02bzojpz1x</string>
     <string name="title_activity_files">Files</string>

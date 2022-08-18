@@ -176,10 +176,6 @@
         "source": "com.dropbox.core.examples.android-main-17:/mipmap-xxxhdpi/ic_perm_identity_black_24dp.png"
     },
     {
-        "merged": "com.dropbox.core.examples.android-merged_res-15:/layout_splash.xml.flat",
-        "source": "com.dropbox.core.examples.android-main-17:/layout/splash.xml"
-    },
-    {
         "merged": "com.dropbox.core.examples.android-merged_res-15:/drawable-mdpi_ic_insert_drive_file_blue_36dp.png.flat",
         "source": "com.dropbox.core.examples.android-main-17:/drawable-mdpi/ic_insert_drive_file_blue_36dp.png"
     },

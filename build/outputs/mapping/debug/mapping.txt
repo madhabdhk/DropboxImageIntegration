@@ -1,10 +1,10 @@
 # compiler: R8
 # compiler_version: 3.2.74
-# min_api: 19
+# min_api: 24
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"2.0"}
-# pg_map_id: b673350
-# pg_map_hash: SHA-256 b673350085161e2f5cf80ca8d90fa97fb9e3b5f6ef94eb078bb82ca597f1294b
+# pg_map_id: 99e8f79
+# pg_map_hash: SHA-256 99e8f79677a69a02551388a56a97b74127ddbb4c508f839d8a077d43d725ce7c
 android.support.media.ExifInterface -> android.support.media.ExifInterface:
     2145:3700:void <clinit>() -> <clinit>
     3680:3718:void <init>(java.lang.String) -> <init>
@@ -129,7 +129,6 @@ androidx.activity.ComponentActivity$NonConfigurationInstances -> androidx.activi
     56:56:void <init>() -> <init>
 androidx.activity.ImmLeaksCleaner -> androidx.activity.ImmLeaksCleaner:
     38:38:void <clinit>() -> <clinit>
-    45:47:void <init>(android.app.Activity) -> <init>
     101:112:void initializeReflectiveFields() -> initializeReflectiveFields
     51:96:void onStateChanged(androidx.lifecycle.LifecycleOwner,androidx.lifecycle.Lifecycle$Event) -> onStateChanged
 androidx.activity.OnBackPressedCallback -> androidx.activity.OnBackPressedCallback:
@@ -174,7 +173,6 @@ androidx.appcompat.app.AlertController -> androidx.appcompat.app.AlertController
     398:400:int getIconAttributeResId(int) -> getIconAttributeResId
     404:404:android.widget.ListView getListView() -> getListView
     231:234:void installContent() -> installContent
-    748:756:void manageScrollIndicators(android.view.View,android.view.View,android.view.View) -> manageScrollIndicators
     422:422:boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
     427:427:boolean onKeyUp(int,android.view.KeyEvent) -> onKeyUp
     441:463:android.view.ViewGroup resolvePanel(android.view.View,android.view.View) -> resolvePanel
@@ -198,19 +196,6 @@ androidx.appcompat.app.AlertController -> androidx.appcompat.app.AlertController
 androidx.appcompat.app.AlertController$1 -> androidx.appcompat.app.AlertController$1:
     126:126:void <init>(androidx.appcompat.app.AlertController) -> <init>
     130:147:void onClick(android.view.View) -> onClick
-androidx.appcompat.app.AlertController$2 -> androidx.appcompat.app.AlertController$2:
-    591:591:void <init>(androidx.appcompat.app.AlertController,android.view.View,android.view.View) -> <init>
-    596:597:void onScrollChange(androidx.core.widget.NestedScrollView,int,int,int,int) -> onScrollChange
-androidx.appcompat.app.AlertController$3 -> androidx.appcompat.app.AlertController$3:
-    600:600:void <init>(androidx.appcompat.app.AlertController,android.view.View,android.view.View) -> <init>
-    603:604:void run() -> run
-androidx.appcompat.app.AlertController$4 -> androidx.appcompat.app.AlertController$4:
-    608:608:void <init>(androidx.appcompat.app.AlertController,android.view.View,android.view.View) -> <init>
-    615:616:void onScroll(android.widget.AbsListView,int,int,int) -> onScroll
-    610:610:void onScrollStateChanged(android.widget.AbsListView,int) -> onScrollStateChanged
-androidx.appcompat.app.AlertController$5 -> androidx.appcompat.app.AlertController$5:
-    619:619:void <init>(androidx.appcompat.app.AlertController,android.view.View,android.view.View) -> <init>
-    622:623:void run() -> run
 androidx.appcompat.app.AlertController$AlertParams -> androidx.appcompat.app.AlertController$AlertParams:
     869:928:void <init>(android.content.Context) -> <init>
     931:985:void apply(androidx.appcompat.app.AlertController) -> apply
@@ -406,19 +391,12 @@ androidx.appcompat.app.AppCompatDelegateImpl -> androidx.appcompat.app.AppCompat
     2245:2334:boolean updateForNightMode(int,boolean) -> updateForNightMode
     2341:2382:void updateResourcesConfigurationForNightMode(int,boolean) -> updateResourcesConfigurationForNightMode
     2038:2104:int updateStatusGuard(int) -> updateStatusGuard
-androidx.appcompat.app.AppCompatDelegateImpl$1 -> androidx.appcompat.app.AppCompatDelegateImpl$1:
-    158:158:void <init>(java.lang.Thread$UncaughtExceptionHandler) -> <init>
-    174:179:boolean shouldWrapException(java.lang.Throwable) -> shouldWrapException
-    161:171:void uncaughtException(java.lang.Thread,java.lang.Throwable) -> uncaughtException
 androidx.appcompat.app.AppCompatDelegateImpl$2 -> androidx.appcompat.app.AppCompatDelegateImpl$2:
     256:256:void <init>(androidx.appcompat.app.AppCompatDelegateImpl) -> <init>
     259:267:void run() -> run
 androidx.appcompat.app.AppCompatDelegateImpl$3 -> androidx.appcompat.app.AppCompatDelegateImpl$3:
     780:780:void <init>(androidx.appcompat.app.AppCompatDelegateImpl) -> <init>
     784:796:androidx.core.view.WindowInsetsCompat onApplyWindowInsets(android.view.View,androidx.core.view.WindowInsetsCompat) -> onApplyWindowInsets
-androidx.appcompat.app.AppCompatDelegateImpl$4 -> androidx.appcompat.app.AppCompatDelegateImpl$4:
-    802:802:void <init>(androidx.appcompat.app.AppCompatDelegateImpl) -> <init>
-    805:806:void onFitSystemWindows(android.graphics.Rect) -> onFitSystemWindows
 androidx.appcompat.app.AppCompatDelegateImpl$5 -> androidx.appcompat.app.AppCompatDelegateImpl$5:
     857:857:void <init>(androidx.appcompat.app.AppCompatDelegateImpl) -> <init>
     859:859:void onAttachedFromWindow() -> onAttachedFromWindow
@@ -457,13 +435,13 @@ androidx.appcompat.app.AppCompatDelegateImpl$AppCompatWindowCallback -> androidx
     2875:2877:void onPanelClosed(int,android.view.Menu) -> onPanelClosed
     2841:2863:boolean onPreparePanel(int,android.view.View,android.view.Menu) -> onPreparePanel
     2934:2943:void onProvideKeyboardShortcuts(java.util.List,android.view.Menu,int) -> onProvideKeyboardShortcuts
-    2882:2891:android.view.ActionMode onWindowStartingActionMode(android.view.ActionMode$Callback) -> onWindowStartingActionMode
+    2882:2884:android.view.ActionMode onWindowStartingActionMode(android.view.ActionMode$Callback) -> onWindowStartingActionMode
     2919:2927:android.view.ActionMode onWindowStartingActionMode(android.view.ActionMode$Callback,int) -> onWindowStartingActionMode
     2901:2912:android.view.ActionMode startAsSupportActionMode(android.view.ActionMode$Callback) -> startAsSupportActionMode
 androidx.appcompat.app.AppCompatDelegateImpl$AutoBatteryNightModeManager -> androidx.appcompat.app.AppCompatDelegateImpl$AutoBatteryNightModeManager:
     3030:3032:void <init>(androidx.appcompat.app.AppCompatDelegateImpl,android.content.Context) -> <init>
-    3050:3055:android.content.IntentFilter createIntentFilterForBroadcastReceiver() -> createIntentFilterForBroadcastReceiver
-    3037:3040:int getApplyableNightMode() -> getApplyableNightMode
+    3050:3053:android.content.IntentFilter createIntentFilterForBroadcastReceiver() -> createIntentFilterForBroadcastReceiver
+    3037:3038:int getApplyableNightMode() -> getApplyableNightMode
     3045:3046:void onChange() -> onChange
 androidx.appcompat.app.AppCompatDelegateImpl$AutoNightModeManager -> androidx.appcompat.app.AppCompatDelegateImpl$AutoNightModeManager:
     2951:2951:void <init>(androidx.appcompat.app.AppCompatDelegateImpl) -> <init>
@@ -546,8 +524,6 @@ androidx.appcompat.app.AppCompatViewInflater$DeclaredOnClickListener -> androidx
     409:436:void resolveMethod(android.content.Context,java.lang.String) -> resolveMethod
 androidx.appcompat.app.ResourcesFlusher -> androidx.appcompat.app.ResourcesFlusher:
     46:56:void flush(android.content.res.Resources) -> flush
-    60:80:void flushLollipops(android.content.res.Resources) -> flushLollipops
-    84:109:void flushMarshmallows(android.content.res.Resources) -> flushMarshmallows
     113:162:void flushNougats(android.content.res.Resources) -> flushNougats
     166:207:void flushThemedResourcesCache(java.lang.Object) -> flushThemedResourcesCache
 androidx.appcompat.app.ToolbarActionBar -> androidx.appcompat.app.ToolbarActionBar:
@@ -669,182 +645,8 @@ androidx.appcompat.app.WindowDecorActionBar$ActionModeImpl -> androidx.appcompat
     1106:1108:void setTitleOptionalHint(boolean) -> setTitleOptionalHint
 androidx.appcompat.content.res.AppCompatResources -> androidx.appcompat.content.res.AppCompatResources:
     50:55:void <clinit>() -> <clinit>
-    150:159:void addColorStateListToCache(android.content.Context,int,android.content.res.ColorStateList) -> addColorStateListToCache
-    130:145:android.content.res.ColorStateList getCachedColorStateList(android.content.Context,int) -> getCachedColorStateList
-    67:86:android.content.res.ColorStateList getColorStateList(android.content.Context,int) -> getColorStateList
+    67:69:android.content.res.ColorStateList getColorStateList(android.content.Context,int) -> getColorStateList
     104:104:android.graphics.drawable.Drawable getDrawable(android.content.Context,int) -> getDrawable
-    173:178:android.util.TypedValue getTypedValue() -> getTypedValue
-    112:124:android.content.res.ColorStateList inflateColorStateList(android.content.Context,int) -> inflateColorStateList
-    162:167:boolean isColorInt(android.content.Context,int) -> isColorInt
-androidx.appcompat.content.res.AppCompatResources$ColorStateListCacheEntry -> androidx.appcompat.content.res.AppCompatResources$ColorStateListCacheEntry:
-    186:189:void <init>(android.content.res.ColorStateList,android.content.res.Configuration) -> <init>
-androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat -> androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat:
-    92:92:void <clinit>() -> <clinit>
-    111:112:void <init>() -> <init>
-    105:122:void <init>(androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat$AnimatedStateListState,android.content.res.Resources) -> <init>
-    89:89:void applyTheme(android.content.res.Resources$Theme) -> applyTheme
-    89:89:boolean canApplyTheme() -> canApplyTheme
-    89:89:androidx.appcompat.graphics.drawable.DrawableContainer$DrawableContainerState cloneConstantState() -> cloneConstantState
-    89:89:androidx.appcompat.graphics.drawable.StateListDrawable$StateListState cloneConstantState() -> cloneConstantState
-    614:614:androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat$AnimatedStateListState cloneConstantState() -> cloneConstantState
-    171:178:androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat createFromXmlInner(android.content.Context,android.content.res.Resources,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.content.res.Resources$Theme) -> createFromXmlInner
-    89:89:void draw(android.graphics.Canvas) -> draw
-    89:89:int getAlpha() -> getAlpha
-    89:89:int getChangingConfigurations() -> getChangingConfigurations
-    89:89:android.graphics.drawable.Drawable getCurrent() -> getCurrent
-    89:89:void getHotspotBounds(android.graphics.Rect) -> getHotspotBounds
-    89:89:int getIntrinsicHeight() -> getIntrinsicHeight
-    89:89:int getIntrinsicWidth() -> getIntrinsicWidth
-    89:89:int getMinimumHeight() -> getMinimumHeight
-    89:89:int getMinimumWidth() -> getMinimumWidth
-    89:89:int getOpacity() -> getOpacity
-    89:89:void getOutline(android.graphics.Outline) -> getOutline
-    89:89:boolean getPadding(android.graphics.Rect) -> getPadding
-    201:210:void inflate(android.content.Context,android.content.res.Resources,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.content.res.Resources$Theme) -> inflate
-    483:500:void inflateChildElements(android.content.Context,android.content.res.Resources,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.content.res.Resources$Theme) -> inflateChildElements
-    472:473:void init() -> init
-    89:89:void invalidateDrawable(android.graphics.drawable.Drawable) -> invalidateDrawable
-    89:89:boolean isAutoMirrored() -> isAutoMirrored
-    259:259:boolean isStateful() -> isStateful
-    264:272:void jumpToCurrentState() -> jumpToCurrentState
-    605:609:android.graphics.drawable.Drawable mutate() -> mutate
-    89:89:boolean onLayoutDirectionChanged(int) -> onLayoutDirectionChanged
-    278:288:boolean onStateChange(int[]) -> onStateChange
-    564:600:int parseItem(android.content.Context,android.content.res.Resources,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.content.res.Resources$Theme) -> parseItem
-    510:554:int parseTransition(android.content.Context,android.content.res.Resources,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.content.res.Resources$Theme) -> parseTransition
-    89:89:void scheduleDrawable(android.graphics.drawable.Drawable,java.lang.Runnable,long) -> scheduleDrawable
-    293:350:boolean selectTransition(int) -> selectTransition
-    89:89:void setAlpha(int) -> setAlpha
-    89:89:void setAutoMirrored(boolean) -> setAutoMirrored
-    89:89:void setColorFilter(android.graphics.ColorFilter) -> setColorFilter
-    718:722:void setConstantState(androidx.appcompat.graphics.drawable.DrawableContainer$DrawableContainerState) -> setConstantState
-    89:89:void setDither(boolean) -> setDither
-    89:89:void setHotspot(float,float) -> setHotspot
-    89:89:void setHotspotBounds(int,int,int,int) -> setHotspotBounds
-    89:89:void setTintList(android.content.res.ColorStateList) -> setTintList
-    89:89:void setTintMode(android.graphics.PorterDuff$Mode) -> setTintMode
-    214:223:boolean setVisible(boolean,boolean) -> setVisible
-    89:89:void unscheduleDrawable(android.graphics.drawable.Drawable,java.lang.Runnable) -> unscheduleDrawable
-    449:469:void updateStateFromTypedArray(android.content.res.TypedArray) -> updateStateFromTypedArray
-androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat$AnimatableTransition -> androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat$AnimatableTransition:
-    370:372:void <init>(android.graphics.drawable.Animatable) -> <init>
-    376:377:void start() -> start
-    381:382:void stop() -> stop
-androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat$AnimatedStateListState -> androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat$AnimatedStateListState:
-    634:643:void <init>(androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat$AnimatedStateListState,androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat,android.content.res.Resources) -> <init>
-    667:669:int addStateSet(int[],android.graphics.drawable.Drawable,int) -> addStateSet
-    652:663:int addTransition(int,int,android.graphics.drawable.Drawable,boolean) -> addTransition
-    712:712:long generateTransitionKey(int,int) -> generateTransitionKey
-    681:681:int getKeyframeIdAt(int) -> getKeyframeIdAt
-    673:677:int indexOfKeyframe(int[]) -> indexOfKeyframe
-    685:686:int indexOfTransition(int,int) -> indexOfTransition
-    690:691:boolean isTransitionReversed(int,int) -> isTransitionReversed
-    647:649:void mutate() -> mutate
-    702:702:android.graphics.drawable.Drawable newDrawable() -> newDrawable
-    708:708:android.graphics.drawable.Drawable newDrawable(android.content.res.Resources) -> newDrawable
-    695:696:boolean transitionHasReversibleFlag(int,int) -> transitionHasReversibleFlag
-androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat$AnimatedVectorDrawableTransition -> androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat$AnimatedVectorDrawableTransition:
-    433:435:void <init>(androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat) -> <init>
-    439:440:void start() -> start
-    444:445:void stop() -> stop
-androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat$AnimationDrawableTransition -> androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat$AnimationDrawableTransition:
-    392:407:void <init>(android.graphics.drawable.AnimationDrawable,boolean,boolean) -> <init>
-    411:411:boolean canReverse() -> canReverse
-    421:422:void reverse() -> reverse
-    416:417:void start() -> start
-    426:427:void stop() -> stop
-androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat$FrameInterpolator -> androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat$FrameInterpolator:
-    732:734:void <init>(android.graphics.drawable.AnimationDrawable,boolean) -> <init>
-    759:776:float getInterpolation(float) -> getInterpolation
-    754:754:int getTotalDuration() -> getTotalDuration
-    737:750:int updateFrames(android.graphics.drawable.AnimationDrawable,boolean) -> updateFrames
-androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat$Transition -> androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat$Transition:
-    353:353:void <init>() -> <init>
-    353:353:void <init>(androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat$1) -> <init>
-    363:363:boolean canReverse() -> canReverse
-    360:360:void reverse() -> reverse
-androidx.appcompat.graphics.drawable.DrawableContainer -> androidx.appcompat.graphics.drawable.DrawableContainer:
-    53:75:void <init>() -> <init>
-    535:573:void animate(boolean) -> animate
-    595:596:void applyTheme(android.content.res.Resources$Theme) -> applyTheme
-    601:601:boolean canApplyTheme() -> canApplyTheme
-    87:93:void draw(android.graphics.Canvas) -> draw
-    154:154:int getAlpha() -> getAlpha
-    97:98:int getChangingConfigurations() -> getChangingConfigurations
-    606:610:android.graphics.drawable.Drawable$ConstantState getConstantState() -> getConstantState
-    578:578:android.graphics.drawable.Drawable getCurrent() -> getCurrent
-    414:414:int getCurrentIndex() -> getCurrentIndex
-    296:301:void getHotspotBounds(android.graphics.Rect) -> getHotspotBounds
-    342:345:int getIntrinsicHeight() -> getIntrinsicHeight
-    334:337:int getIntrinsicWidth() -> getIntrinsicWidth
-    358:361:int getMinimumHeight() -> getMinimumHeight
-    350:353:int getMinimumWidth() -> getMinimumWidth
-    405:406:int getOpacity() -> getOpacity
-    132:135:void getOutline(android.graphics.Outline) -> getOutline
-    108:126:boolean getPadding(android.graphics.Rect) -> getPadding
-    491:532:void initializeDrawableForDisplay(android.graphics.drawable.Drawable) -> initializeDrawableForDisplay
-    369:375:void invalidateDrawable(android.graphics.drawable.Drawable) -> invalidateDrawable
-    244:244:boolean isAutoMirrored() -> isAutoMirrored
-    249:273:void jumpToCurrentState() -> jumpToCurrentState
-    616:622:android.graphics.drawable.Drawable mutate() -> mutate
-    102:103:boolean needsMirroring() -> needsMirroring
-    218:224:void onBoundsChange(android.graphics.Rect) -> onBoundsChange
-    329:329:boolean onLayoutDirectionChanged(int) -> onLayoutDirectionChanged
-    316:322:boolean onLevelChange(int) -> onLevelChange
-    305:311:boolean onStateChange(int[]) -> onStateChange
-    1204:1205:int resolveDensity(android.content.res.Resources,int) -> resolveDensity
-    379:382:void scheduleDrawable(android.graphics.drawable.Drawable,java.lang.Runnable,long) -> scheduleDrawable
-    427:482:boolean selectDrawable(int) -> selectDrawable
-    139:150:void setAlpha(int) -> setAlpha
-    233:240:void setAutoMirrored(boolean) -> setAutoMirrored
-    169:176:void setColorFilter(android.graphics.ColorFilter) -> setColorFilter
-    1152:1164:void setConstantState(androidx.appcompat.graphics.drawable.DrawableContainer$DrawableContainerState) -> setConstantState
-    159:165:void setDither(boolean) -> setDither
-    277:280:void setHotspot(float,float) -> setHotspot
-    284:292:void setHotspotBounds(int,int,int,int) -> setHotspotBounds
-    180:185:void setTintList(android.content.res.ColorStateList) -> setTintList
-    189:194:void setTintMode(android.graphics.PorterDuff$Mode) -> setTintMode
-    393:400:boolean setVisible(boolean,boolean) -> setVisible
-    386:389:void unscheduleDrawable(android.graphics.drawable.Drawable,java.lang.Runnable) -> unscheduleDrawable
-    589:590:void updateDensity(android.content.res.Resources) -> updateDensity
-androidx.appcompat.graphics.drawable.DrawableContainer$1 -> androidx.appcompat.graphics.drawable.DrawableContainer$1:
-    468:468:void <init>(androidx.appcompat.graphics.drawable.DrawableContainer) -> <init>
-    471:473:void run() -> run
-androidx.appcompat.graphics.drawable.DrawableContainer$BlockInvalidateCallback -> androidx.appcompat.graphics.drawable.DrawableContainer$BlockInvalidateCallback:
-    1169:1169:void <init>() -> <init>
-    1186:1186:void invalidateDrawable(android.graphics.drawable.Drawable) -> invalidateDrawable
-    1190:1193:void scheduleDrawable(android.graphics.drawable.Drawable,java.lang.Runnable,long) -> scheduleDrawable
-    1197:1200:void unscheduleDrawable(android.graphics.drawable.Drawable,java.lang.Runnable) -> unscheduleDrawable
-    1178:1180:android.graphics.drawable.Drawable$Callback unwrap() -> unwrap
-    1173:1174:androidx.appcompat.graphics.drawable.DrawableContainer$BlockInvalidateCallback wrap(android.graphics.drawable.Drawable$Callback) -> wrap
-androidx.appcompat.graphics.drawable.DrawableContainer$DrawableContainerState -> androidx.appcompat.graphics.drawable.DrawableContainer$DrawableContainerState:
-    649:757:void <init>(androidx.appcompat.graphics.drawable.DrawableContainer$DrawableContainerState,androidx.appcompat.graphics.drawable.DrawableContainer,android.content.res.Resources) -> <init>
-    771:786:int addChild(android.graphics.drawable.Drawable) -> addChild
-    895:908:void applyTheme(android.content.res.Resources$Theme) -> applyTheme
-    913:928:boolean canApplyTheme() -> canApplyTheme
-    1132:1147:boolean canConstantState() -> canConstantState
-    1044:1061:void computeConstantSize() -> computeConstantSize
-    802:811:void createAllFutures() -> createAllFutures
-    798:798:int getCapacity() -> getCapacity
-    761:761:int getChangingConfigurations() -> getChangingConfigurations
-    830:848:android.graphics.drawable.Drawable getChild(int) -> getChild
-    823:823:int getChildCount() -> getChildCount
-    1017:1020:int getConstantHeight() -> getConstantHeight
-    1037:1040:int getConstantMinimumHeight() -> getConstantMinimumHeight
-    1027:1030:int getConstantMinimumWidth() -> getConstantMinimumWidth
-    968:989:android.graphics.Rect getConstantPadding() -> getConstantPadding
-    1007:1010:int getConstantWidth() -> getConstantWidth
-    1083:1095:int getOpacity() -> getOpacity
-    1124:1127:void growArray(int,int) -> growArray
-    793:795:void invalidateCache() -> invalidateCache
-    1000:1000:boolean isConstantSize() -> isConstantSize
-    814:819:android.graphics.drawable.Drawable prepareDrawable(android.graphics.drawable.Drawable) -> prepareDrawable
-    993:994:void setConstantSize(boolean) -> setConstantSize
-    1064:1065:void setEnterFadeDuration(int) -> setEnterFadeDuration
-    1072:1073:void setExitFadeDuration(int) -> setExitFadeDuration
-    852:869:boolean setLayoutDirection(int,int) -> setLayoutDirection
-    961:962:void setVariablePadding(boolean) -> setVariablePadding
-    879:891:void updateDensity(android.content.res.Resources) -> updateDensity
 androidx.appcompat.graphics.drawable.DrawableWrapper -> androidx.appcompat.graphics.drawable.DrawableWrapper:
     46:48:void <init>(android.graphics.drawable.Drawable) -> <init>
     52:53:void draw(android.graphics.Canvas) -> draw
@@ -881,25 +683,6 @@ androidx.appcompat.graphics.drawable.DrawableWrapper -> androidx.appcompat.graph
     117:117:boolean setVisible(boolean,boolean) -> setVisible
     224:233:void setWrappedDrawable(android.graphics.drawable.Drawable) -> setWrappedDrawable
     176:177:void unscheduleDrawable(android.graphics.drawable.Drawable,java.lang.Runnable) -> unscheduleDrawable
-androidx.appcompat.graphics.drawable.StateListDrawable -> androidx.appcompat.graphics.drawable.StateListDrawable:
-    403:408:void <init>(androidx.appcompat.graphics.drawable.StateListDrawable$StateListState,android.content.res.Resources) -> <init>
-    414:418:void <init>(androidx.appcompat.graphics.drawable.StateListDrawable$StateListState) -> <init>
-    391:393:void applyTheme(android.content.res.Resources$Theme) -> applyTheme
-    79:79:androidx.appcompat.graphics.drawable.DrawableContainer$DrawableContainerState cloneConstantState() -> cloneConstantState
-    319:319:androidx.appcompat.graphics.drawable.StateListDrawable$StateListState cloneConstantState() -> cloneConstantState
-    234:253:int[] extractStateSet(android.util.AttributeSet) -> extractStateSet
-    108:108:boolean isStateful() -> isStateful
-    310:314:android.graphics.drawable.Drawable mutate() -> mutate
-    113:122:boolean onStateChange(int[]) -> onStateChange
-    397:401:void setConstantState(androidx.appcompat.graphics.drawable.DrawableContainer$DrawableContainerState) -> setConstantState
-androidx.appcompat.graphics.drawable.StateListDrawable$StateListState -> androidx.appcompat.graphics.drawable.StateListDrawable$StateListState:
-    332:339:void <init>(androidx.appcompat.graphics.drawable.StateListDrawable$StateListState,androidx.appcompat.graphics.drawable.StateListDrawable,android.content.res.Resources) -> <init>
-    351:353:int addStateSet(int[],android.graphics.drawable.Drawable) -> addStateSet
-    381:385:void growArray(int,int) -> growArray
-    357:364:int indexOfStateSet(int[]) -> indexOfStateSet
-    343:348:void mutate() -> mutate
-    370:370:android.graphics.drawable.Drawable newDrawable() -> newDrawable
-    376:376:android.graphics.drawable.Drawable newDrawable(android.content.res.Resources) -> newDrawable
 androidx.appcompat.view.ActionBarPolicy -> androidx.appcompat.view.ActionBarPolicy:
     46:48:void <init>(android.content.Context) -> <init>
     110:110:boolean enableHomeButtonByDefault() -> enableHomeButtonByDefault
@@ -1972,7 +1755,7 @@ androidx.appcompat.widget.AppCompatBackgroundHelper -> androidx.appcompat.widget
     138:148:void setInternalBackgroundTint(android.content.res.ColorStateList) -> setInternalBackgroundTint
     91:97:void setSupportBackgroundTintList(android.content.res.ColorStateList) -> setSupportBackgroundTintList
     104:111:void setSupportBackgroundTintMode(android.graphics.PorterDuff$Mode) -> setSupportBackgroundTintMode
-    151:163:boolean shouldApplyFrameworkTintUsingColorFilter() -> shouldApplyFrameworkTintUsingColorFilter
+    151:155:boolean shouldApplyFrameworkTintUsingColorFilter() -> shouldApplyFrameworkTintUsingColorFilter
 androidx.appcompat.widget.AppCompatButton -> androidx.appcompat.widget.AppCompatButton:
     68:69:void <init>(android.content.Context,android.util.AttributeSet) -> <init>
     72:80:void <init>(android.content.Context,android.util.AttributeSet,int) -> <init>
@@ -2110,7 +1893,7 @@ androidx.appcompat.widget.AppCompatImageHelper -> androidx.appcompat.widget.AppC
     85:96:void setImageResource(int) -> setImageResource
     110:116:void setSupportImageTintList(android.content.res.ColorStateList) -> setSupportImageTintList
     123:130:void setSupportImageTintMode(android.graphics.PorterDuff$Mode) -> setSupportImageTintMode
-    174:186:boolean shouldApplyFrameworkTintUsingColorFilter() -> shouldApplyFrameworkTintUsingColorFilter
+    174:178:boolean shouldApplyFrameworkTintUsingColorFilter() -> shouldApplyFrameworkTintUsingColorFilter
 androidx.appcompat.widget.AppCompatImageView -> androidx.appcompat.widget.AppCompatImageView:
     64:65:void <init>(android.content.Context) -> <init>
     68:69:void <init>(android.content.Context,android.util.AttributeSet) -> <init>
@@ -2399,9 +2182,8 @@ androidx.appcompat.widget.AppCompatTextViewAutoSizeHelper -> androidx.appcompat.
     546:582:void autoSizeText() -> autoSizeText
     453:477:int[] cleanupAutoSizePresetSizes(int[]) -> cleanupAutoSizePresetSizes
     585:591:void clearAutoSizeConfiguration() -> clearAutoSizeConfiguration
-    679:682:android.text.StaticLayout createLayout(java.lang.CharSequence,android.text.Layout$Alignment,int,int) -> createLayout
+    679:680:android.text.StaticLayout createLayout(java.lang.CharSequence,android.text.Layout$Alignment,int,int) -> createLayout
     724:748:android.text.StaticLayout createStaticLayoutForMeasuring(java.lang.CharSequence,android.text.Layout$Alignment,int,int) -> createStaticLayoutForMeasuring
-    754:760:android.text.StaticLayout createStaticLayoutForMeasuringPre23(java.lang.CharSequence,android.text.Layout$Alignment,int) -> createStaticLayoutForMeasuringPre23
     642:662:int findLargestTextSizeWhichFits(android.graphics.RectF) -> findLargestTextSizeWhichFits
     410:410:int getAutoSizeMaxTextSize() -> getAutoSizeMaxTextSize
     394:394:int getAutoSizeMinTextSize() -> getAutoSizeMinTextSize
@@ -2458,7 +2240,6 @@ androidx.appcompat.widget.DrawableUtils -> androidx.appcompat.widget.DrawableUti
     45:64:void <clinit>() -> <clinit>
     142:176:boolean canSafelyMutateDrawable(android.graphics.drawable.Drawable) -> canSafelyMutateDrawable
     131:135:void fixDrawable(android.graphics.drawable.Drawable) -> fixDrawable
-    184:194:void fixVectorDrawableTinting(android.graphics.drawable.Drawable) -> fixVectorDrawableTinting
     200:207:android.graphics.PorterDuff$Mode parseTintMode(int,android.graphics.PorterDuff$Mode) -> parseTintMode
 androidx.appcompat.widget.DropDownListView -> androidx.appcompat.widget.DropDownListView:
     50:128:void <init>(android.content.Context,boolean) -> <init>
@@ -2673,7 +2454,6 @@ androidx.appcompat.widget.MenuPopupWindow$MenuDropDownListView -> androidx.appco
 androidx.appcompat.widget.ResourceManagerInternal -> androidx.appcompat.widget.ResourceManagerInternal:
     83:112:void <clinit>() -> <clinit>
     62:118:void <init>() -> <init>
-    367:371:void addDelegate(java.lang.String,androidx.appcompat.widget.ResourceManagerInternal$InflateDelegate) -> addDelegate
     335:346:boolean addDrawableToCache(android.content.Context,long,android.graphics.drawable.Drawable) -> addDrawableToCache
     417:426:void addTintListToCache(android.content.Context,int,android.content.res.ColorStateList) -> addTintListToCache
     497:510:void checkVectorDrawableSetup(android.content.Context) -> checkVectorDrawableSetup
@@ -2697,20 +2477,11 @@ androidx.appcompat.widget.ResourceManagerInternal -> androidx.appcompat.widget.R
     200:225:android.graphics.drawable.Drawable tintDrawable(android.content.Context,int,boolean,android.graphics.drawable.Drawable) -> tintDrawable
     451:471:void tintDrawable(android.graphics.drawable.Drawable,androidx.appcompat.widget.TintInfo,int[]) -> tintDrawable
     363:363:boolean tintDrawableUsingColorFilter(android.content.Context,int,android.graphics.drawable.Drawable) -> tintDrawableUsingColorFilter
-androidx.appcompat.widget.ResourceManagerInternal$AsldcInflateDelegate -> androidx.appcompat.widget.ResourceManagerInternal$AsldcInflateDelegate:
-    552:552:void <init>() -> <init>
-    557:561:android.graphics.drawable.Drawable createFromXmlInner(android.content.Context,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.content.res.Resources$Theme) -> createFromXmlInner
-androidx.appcompat.widget.ResourceManagerInternal$AvdcInflateDelegate -> androidx.appcompat.widget.ResourceManagerInternal$AvdcInflateDelegate:
-    535:536:void <init>() -> <init>
-    542:546:android.graphics.drawable.Drawable createFromXmlInner(android.content.Context,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.content.res.Resources$Theme) -> createFromXmlInner
 androidx.appcompat.widget.ResourceManagerInternal$ColorFilterLruCache -> androidx.appcompat.widget.ResourceManagerInternal$ColorFilterLruCache:
     431:432:void <init>(int) -> <init>
     443:446:int generateCacheKey(int,android.graphics.PorterDuff$Mode) -> generateCacheKey
     435:435:android.graphics.PorterDuffColorFilter get(int,android.graphics.PorterDuff$Mode) -> get
     439:439:android.graphics.PorterDuffColorFilter put(int,android.graphics.PorterDuff$Mode,android.graphics.PorterDuffColorFilter) -> put
-androidx.appcompat.widget.ResourceManagerInternal$VdcInflateDelegate -> androidx.appcompat.widget.ResourceManagerInternal$VdcInflateDelegate:
-    518:519:void <init>() -> <init>
-    525:529:android.graphics.drawable.Drawable createFromXmlInner(android.content.Context,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.content.res.Resources$Theme) -> createFromXmlInner
 androidx.appcompat.widget.ResourcesWrapper -> androidx.appcompat.widget.ResourcesWrapper:
     48:50:void <init>(android.content.res.Resources) -> <init>
     183:183:android.content.res.XmlResourceParser getAnimation(int) -> getAnimation
@@ -3403,12 +3174,6 @@ androidx.cardview.widget.CardView -> androidx.cardview.widget.CardView:
     441:445:void setPreventCornerOverlap(boolean) -> setPreventCornerOverlap
     354:355:void setRadius(float) -> setRadius
     203:207:void setUseCompatPadding(boolean) -> setUseCompatPadding
-androidx.cardview.widget.CardViewApi17Impl -> androidx.cardview.widget.CardViewApi17Impl:
-    25:25:void <init>() -> <init>
-    29:37:void initStatic() -> initStatic
-androidx.cardview.widget.CardViewApi17Impl$1 -> androidx.cardview.widget.CardViewApi17Impl$1:
-    30:30:void <init>(androidx.cardview.widget.CardViewApi17Impl) -> <init>
-    34:35:void drawRoundRect(android.graphics.Canvas,android.graphics.RectF,float,android.graphics.Paint) -> drawRoundRect
 androidx.cardview.widget.CardViewApi21Impl -> androidx.cardview.widget.CardViewApi21Impl:
     26:26:void <init>() -> <init>
     118:118:android.content.res.ColorStateList getBackgroundColor(androidx.cardview.widget.CardViewDelegate) -> getBackgroundColor
@@ -3426,22 +3191,6 @@ androidx.cardview.widget.CardViewApi21Impl -> androidx.cardview.widget.CardViewA
     51:54:void setMaxElevation(androidx.cardview.widget.CardViewDelegate,float) -> setMaxElevation
     42:43:void setRadius(androidx.cardview.widget.CardViewDelegate,float) -> setRadius
     88:99:void updatePadding(androidx.cardview.widget.CardViewDelegate) -> updatePadding
-androidx.cardview.widget.CardViewBaseImpl -> androidx.cardview.widget.CardViewBaseImpl:
-    27:29:void <init>() -> <init>
-    125:125:android.content.res.ColorStateList getBackgroundColor(androidx.cardview.widget.CardViewDelegate) -> getBackgroundColor
-    146:146:float getElevation(androidx.cardview.widget.CardViewDelegate) -> getElevation
-    157:157:float getMaxElevation(androidx.cardview.widget.CardViewDelegate) -> getMaxElevation
-    167:167:float getMinHeight(androidx.cardview.widget.CardViewDelegate) -> getMinHeight
-    162:162:float getMinWidth(androidx.cardview.widget.CardViewDelegate) -> getMinWidth
-    136:136:float getRadius(androidx.cardview.widget.CardViewDelegate) -> getRadius
-    171:171:androidx.cardview.widget.RoundRectDrawableWithShadow getShadowBackground(androidx.cardview.widget.CardViewDelegate) -> getShadowBackground
-    110:110:void onCompatPaddingChanged(androidx.cardview.widget.CardViewDelegate) -> onCompatPaddingChanged
-    114:116:void onPreventCornerOverlapChanged(androidx.cardview.widget.CardViewDelegate) -> onPreventCornerOverlapChanged
-    120:121:void setBackgroundColor(androidx.cardview.widget.CardViewDelegate,android.content.res.ColorStateList) -> setBackgroundColor
-    141:142:void setElevation(androidx.cardview.widget.CardViewDelegate,float) -> setElevation
-    151:153:void setMaxElevation(androidx.cardview.widget.CardViewDelegate,float) -> setMaxElevation
-    130:132:void setRadius(androidx.cardview.widget.CardViewDelegate,float) -> setRadius
-    99:105:void updatePadding(androidx.cardview.widget.CardViewDelegate) -> updatePadding
 androidx.cardview.widget.RoundRectDrawable -> androidx.cardview.widget.RoundRectDrawable:
     206:210:android.graphics.PorterDuffColorFilter createTintFilter(android.content.res.ColorStateList,android.graphics.PorterDuff$Mode) -> createTintFilter
     87:102:void draw(android.graphics.Canvas) -> draw
@@ -3464,37 +3213,10 @@ androidx.cardview.widget.RoundRectDrawable -> androidx.cardview.widget.RoundRect
     105:117:void updateBounds(android.graphics.Rect) -> updateBounds
 androidx.cardview.widget.RoundRectDrawableWithShadow -> androidx.cardview.widget.RoundRectDrawableWithShadow:
     41:41:void <clinit>() -> <clinit>
-    334:338:void buildComponents(android.graphics.Rect) -> buildComponents
-    297:328:void buildShadowCorners() -> buildShadowCorners
     189:192:float calculateHorizontalPadding(float,float,boolean) -> calculateHorizontalPadding
     180:183:float calculateVerticalPadding(float,float,boolean) -> calculateVerticalPadding
-    238:246:void draw(android.graphics.Canvas) -> draw
-    249:294:void drawShadow(android.graphics.Canvas) -> drawShadow
-    382:382:android.content.res.ColorStateList getColor() -> getColor
-    341:341:float getCornerRadius() -> getCornerRadius
-    345:346:void getMaxShadowAndCornerPadding(android.graphics.Rect) -> getMaxShadowAndCornerPadding
-    361:361:float getMaxShadowSize() -> getMaxShadowSize
-    371:373:float getMinHeight() -> getMinHeight
-    365:367:float getMinWidth() -> getMinWidth
-    220:220:int getOpacity() -> getOpacity
-    170:175:boolean getPadding(android.graphics.Rect) -> getPadding
-    357:357:float getShadowSize() -> getShadowSize
-    210:210:boolean isStateful() -> isStateful
-    137:139:void onBoundsChange(android.graphics.Rect) -> onBoundsChange
-    198:205:boolean onStateChange(int[]) -> onStateChange
-    124:126:void setAddPaddingForCorners(boolean) -> setAddPaddingForCorners
-    130:133:void setAlpha(int) -> setAlpha
-    108:110:void setBackground(android.content.res.ColorStateList) -> setBackground
-    377:379:void setColor(android.content.res.ColorStateList) -> setColor
-    215:216:void setColorFilter(android.graphics.ColorFilter) -> setColorFilter
-    224:234:void setCornerRadius(float) -> setCornerRadius
-    353:354:void setMaxShadowSize(float) -> setMaxShadowSize
-    142:166:void setShadowSize(float,float) -> setShadowSize
-    349:350:void setShadowSize(float) -> setShadowSize
-    116:120:int toEven(float) -> toEven
 androidx.collection.ArrayMap -> androidx.collection.ArrayMap:
     57:58:void <init>() -> <init>
-    64:65:void <init>(int) -> <init>
     71:72:void <init>(androidx.collection.SimpleArrayMap) -> <init>
     182:182:java.util.Set entrySet() -> entrySet
     75:123:androidx.collection.MapCollections getCollection() -> getCollection
@@ -3565,7 +3287,6 @@ androidx.collection.LongSparseArray -> androidx.collection.LongSparseArray:
     51:51:void <clinit>() -> <clinit>
     62:63:void <init>() -> <init>
     52:81:void <init>(int) -> <init>
-    456:483:void append(long,java.lang.Object) -> append
     440:449:void clear() -> clear
     50:50:java.lang.Object clone() -> clone
     88:94:androidx.collection.LongSparseArray clone() -> clone
@@ -3921,11 +3642,8 @@ androidx.core.app.ActivityCompat -> androidx.core.app.ActivityCompat:
     169:169:androidx.core.app.ActivityCompat$PermissionCompatDelegate getPermissionCompatDelegate() -> getPermissionCompatDelegate
     577:585:void recreate(android.app.Activity) -> recreate
     491:524:void requestPermissions(android.app.Activity,java.lang.String[],int) -> requestPermissions
-    548:551:boolean shouldShowRequestPermissionRationale(android.app.Activity,java.lang.String) -> shouldShowRequestPermissionRationale
+    548:549:boolean shouldShowRequestPermissionRationale(android.app.Activity,java.lang.String) -> shouldShowRequestPermissionRationale
     233:238:void startActivityForResult(android.app.Activity,android.content.Intent,int,android.os.Bundle) -> startActivityForResult
-androidx.core.app.ActivityCompat$1 -> androidx.core.app.ActivityCompat$1:
-    505:505:void <init>(java.lang.String[],android.app.Activity,int) -> <init>
-    508:521:void run() -> run
 androidx.core.app.ActivityRecreator -> androidx.core.app.ActivityRecreator:
     90:99:void <clinit>() -> <clinit>
     361:363:java.lang.Class getActivityThreadClass() -> getActivityThreadClass
@@ -3956,8 +3674,8 @@ androidx.core.app.ActivityRecreator$LifecycleCheckCallbacks -> androidx.core.app
     195:198:void onActivityStarted(android.app.Activity) -> onActivityStarted
     224:224:void onActivityStopped(android.app.Activity) -> onActivityStopped
 androidx.core.app.AppOpsManagerCompat -> androidx.core.app.AppOpsManagerCompat:
-    175:179:int noteProxyOpNoThrow(android.content.Context,java.lang.String,java.lang.String) -> noteProxyOpNoThrow
-    75:78:java.lang.String permissionToOp(java.lang.String) -> permissionToOp
+    175:177:int noteProxyOpNoThrow(android.content.Context,java.lang.String,java.lang.String) -> noteProxyOpNoThrow
+    75:76:java.lang.String permissionToOp(java.lang.String) -> permissionToOp
 androidx.core.app.ComponentActivity -> androidx.core.app.ComponentActivity:
     48:62:void <init>() -> <init>
     129:133:boolean dispatchKeyEvent(android.view.KeyEvent) -> dispatchKeyEvent
@@ -3999,9 +3717,8 @@ androidx.core.app.TaskStackBuilder -> androidx.core.app.TaskStackBuilder:
 androidx.core.content.ContextCompat -> androidx.core.content.ContextCompat:
     153:153:void <clinit>() -> <clinit>
     531:535:int checkSelfPermission(android.content.Context,java.lang.String) -> checkSelfPermission
-    513:516:int getColor(android.content.Context,int) -> getColor
-    491:494:android.content.res.ColorStateList getColorStateList(android.content.Context,int) -> getColorStateList
-    453:456:android.graphics.drawable.Drawable getDrawable(android.content.Context,int) -> getDrawable
+    513:514:int getColor(android.content.Context,int) -> getColor
+    453:454:android.graphics.drawable.Drawable getDrawable(android.content.Context,int) -> getDrawable
     433:434:java.io.File[] getExternalCacheDirs(android.content.Context) -> getExternalCacheDirs
     380:381:java.io.File[] getExternalFilesDirs(android.content.Context,java.lang.String) -> getExternalFilesDirs
     223:228:boolean startActivities(android.content.Context,android.content.Intent[],android.os.Bundle) -> startActivities
@@ -4031,29 +3748,8 @@ androidx.core.content.FileProvider$SimplePathStrategy -> androidx.core.content.F
 androidx.core.content.PermissionChecker -> androidx.core.content.PermissionChecker:
     97:119:int checkPermission(android.content.Context,java.lang.String,int,int,java.lang.String) -> checkPermission
     134:135:int checkSelfPermission(android.content.Context,java.lang.String) -> checkSelfPermission
-androidx.core.content.res.ColorStateListInflaterCompat -> androidx.core.content.res.ColorStateListInflaterCompat:
-    86:98:android.content.res.ColorStateList createFromXml(android.content.res.Resources,org.xmlpull.v1.XmlPullParser,android.content.res.Resources$Theme) -> createFromXml
-    113:119:android.content.res.ColorStateList createFromXmlInner(android.content.res.Resources,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.content.res.Resources$Theme) -> createFromXmlInner
-    65:70:android.content.res.ColorStateList inflate(android.content.res.Resources,int,android.content.res.Resources$Theme) -> inflate
-    128:186:android.content.res.ColorStateList inflate(android.content.res.Resources,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.content.res.Resources$Theme) -> inflate
-    198:199:int modulateColorAlpha(int,float) -> modulateColorAlpha
-    191:192:android.content.res.TypedArray obtainAttributes(android.content.res.Resources,android.content.res.Resources$Theme,android.util.AttributeSet,int[]) -> obtainAttributes
-androidx.core.content.res.ComplexColorCompat -> androidx.core.content.res.ComplexColorCompat:
-    61:65:void <init>(android.graphics.Shader,android.content.res.ColorStateList,int) -> <init>
-    152:171:androidx.core.content.res.ComplexColorCompat createFromXml(android.content.res.Resources,int,android.content.res.Resources$Theme) -> createFromXml
-    68:68:androidx.core.content.res.ComplexColorCompat from(android.graphics.Shader) -> from
-    72:72:androidx.core.content.res.ComplexColorCompat from(android.content.res.ColorStateList) -> from
-    76:76:androidx.core.content.res.ComplexColorCompat from(int) -> from
-    86:86:int getColor() -> getColor
-    81:81:android.graphics.Shader getShader() -> getShader
-    140:144:androidx.core.content.res.ComplexColorCompat inflate(android.content.res.Resources,int,android.content.res.Resources$Theme) -> inflate
-    94:94:boolean isGradient() -> isGradient
-    98:98:boolean isStateful() -> isStateful
-    108:117:boolean onStateChanged(int[]) -> onStateChanged
-    90:91:void setColor(int) -> setColor
-    124:124:boolean willDraw() -> willDraw
 androidx.core.content.res.FontResourcesParserCompat -> androidx.core.content.res.FontResourcesParserCompat:
-    230:235:int getType(android.content.res.TypedArray,int) -> getType
+    230:231:int getType(android.content.res.TypedArray,int) -> getType
     168:176:androidx.core.content.res.FontResourcesParserCompat$FamilyResourceEntry parse(org.xmlpull.v1.XmlPullParser,android.content.res.Resources) -> parse
     246:270:java.util.List readCerts(android.content.res.Resources,int) -> readCerts
     181:187:androidx.core.content.res.FontResourcesParserCompat$FamilyResourceEntry readFamilies(org.xmlpull.v1.XmlPullParser,android.content.res.Resources) -> readFamilies
@@ -4077,22 +3773,8 @@ androidx.core.content.res.FontResourcesParserCompat$ProviderResourceEntry -> and
     93:93:int getFetchStrategy() -> getFetchStrategy
     89:89:androidx.core.provider.FontRequest getRequest() -> getRequest
     97:97:int getTimeout() -> getTimeout
-androidx.core.content.res.GradientColorInflaterCompat -> androidx.core.content.res.GradientColorInflaterCompat:
-    192:197:androidx.core.content.res.GradientColorInflaterCompat$ColorStops checkColors(androidx.core.content.res.GradientColorInflaterCompat$ColorStops,int,int,boolean,int) -> checkColors
-    90:142:android.graphics.Shader createFromXmlInner(android.content.res.Resources,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.content.res.Resources$Theme) -> createFromXmlInner
-    150:186:androidx.core.content.res.GradientColorInflaterCompat$ColorStops inflateChildElements(android.content.res.Resources,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.content.res.Resources$Theme) -> inflateChildElements
-    202:209:android.graphics.Shader$TileMode parseTileMode(int) -> parseTileMode
-androidx.core.content.res.GradientColorInflaterCompat$ColorStops -> androidx.core.content.res.GradientColorInflaterCompat$ColorStops:
-    217:225:void <init>(java.util.List,java.util.List) -> <init>
-    227:230:void <init>(int,int) -> <init>
-    232:235:void <init>(int,int,int) -> <init>
-androidx.core.content.res.GrowingArrayUtils -> androidx.core.content.res.GrowingArrayUtils:
-    29:29:void <clinit>() -> <clinit>
-    41:50:java.lang.Object[] append(java.lang.Object[],int,java.lang.Object) -> append
-    57:65:int[] append(int[],int,int) -> append
-    189:189:int growSize(int) -> growSize
 androidx.core.content.res.ResourcesCompat -> androidx.core.content.res.ResourcesCompat:
-    82:85:android.graphics.drawable.Drawable getDrawable(android.content.res.Resources,int,android.content.res.Resources$Theme) -> getDrawable
+    82:83:android.graphics.drawable.Drawable getDrawable(android.content.res.Resources,int,android.content.res.Resources$Theme) -> getDrawable
     227:230:android.graphics.Typeface getFont(android.content.Context,int) -> getFont
     318:326:void getFont(android.content.Context,int,androidx.core.content.res.ResourcesCompat$FontCallback,android.os.Handler) -> getFont
     336:339:android.graphics.Typeface getFont(android.content.Context,int,android.util.TypedValue,int,androidx.core.content.res.ResourcesCompat$FontCallback) -> getFont
@@ -4108,46 +3790,12 @@ androidx.core.content.res.ResourcesCompat$FontCallback$1 -> androidx.core.conten
 androidx.core.content.res.ResourcesCompat$FontCallback$2 -> androidx.core.content.res.ResourcesCompat$FontCallback$2:
     289:289:void <init>(androidx.core.content.res.ResourcesCompat$FontCallback,int) -> <init>
     292:293:void run() -> run
-androidx.core.content.res.TypedArrayUtils -> androidx.core.content.res.TypedArrayUtils:
-    87:91:boolean getNamedBoolean(android.content.res.TypedArray,org.xmlpull.v1.XmlPullParser,java.lang.String,int,boolean) -> getNamedBoolean
-    122:126:int getNamedColor(android.content.res.TypedArray,org.xmlpull.v1.XmlPullParser,java.lang.String,int,int) -> getNamedColor
-    168:182:android.content.res.ColorStateList getNamedColorStateList(android.content.res.TypedArray,org.xmlpull.v1.XmlPullParser,android.content.res.Resources$Theme,java.lang.String,int) -> getNamedColorStateList
-    190:190:android.content.res.ColorStateList getNamedColorStateListFromInt(android.util.TypedValue) -> getNamedColorStateListFromInt
-    140:154:androidx.core.content.res.ComplexColorCompat getNamedComplexColor(android.content.res.TypedArray,org.xmlpull.v1.XmlPullParser,android.content.res.Resources$Theme,java.lang.String,int,int) -> getNamedComplexColor
-    70:74:float getNamedFloat(android.content.res.TypedArray,org.xmlpull.v1.XmlPullParser,java.lang.String,int,float) -> getNamedFloat
-    104:108:int getNamedInt(android.content.res.TypedArray,org.xmlpull.v1.XmlPullParser,java.lang.String,int,int) -> getNamedInt
-    203:207:int getNamedResourceId(android.content.res.TypedArray,org.xmlpull.v1.XmlPullParser,java.lang.String,int,int) -> getNamedResourceId
-    221:225:java.lang.String getNamedString(android.content.res.TypedArray,org.xmlpull.v1.XmlPullParser,java.lang.String,int) -> getNamedString
-    58:58:boolean hasAttribute(org.xmlpull.v1.XmlPullParser,java.lang.String) -> hasAttribute
-    252:255:android.content.res.TypedArray obtainAttributes(android.content.res.Resources,android.content.res.Resources$Theme,android.util.AttributeSet,int[]) -> obtainAttributes
-    237:241:android.util.TypedValue peekNamedValue(android.content.res.TypedArray,org.xmlpull.v1.XmlPullParser,java.lang.String,int) -> peekNamedValue
 androidx.core.graphics.ColorUtils -> androidx.core.graphics.ColorUtils:
     45:45:void <clinit>() -> <clinit>
     131:131:int compositeAlpha(int,int) -> compositeAlpha
     53:64:int compositeColors(int,int) -> compositeColors
     135:136:int compositeComponent(int,int,int,int,int) -> compositeComponent
     365:368:int setAlphaComponent(int,int) -> setAlphaComponent
-androidx.core.graphics.PathParser -> androidx.core.graphics.PathParser:
-    190:191:void addNode(java.util.ArrayList,char,float[]) -> addNode
-    137:151:boolean canMorph(androidx.core.graphics.PathParser$PathDataNode[],androidx.core.graphics.PathParser$PathDataNode[]) -> canMorph
-    54:65:float[] copyOfRange(float[],int,int) -> copyOfRange
-    91:112:androidx.core.graphics.PathParser$PathDataNode[] createNodesFromPathData(java.lang.String) -> createNodesFromPathData
-    73:83:android.graphics.Path createPathFromPathData(java.lang.String) -> createPathFromPathData
-    120:127:androidx.core.graphics.PathParser$PathDataNode[] deepCopyNodes(androidx.core.graphics.PathParser$PathDataNode[]) -> deepCopyNodes
-    258:300:void extract(java.lang.String,int,androidx.core.graphics.PathParser$ExtractFloatResult) -> extract
-    211:244:float[] getFloats(java.lang.String) -> getFloats
-    174:186:int nextStart(java.lang.String,int) -> nextStart
-    163:169:void updateNodes(androidx.core.graphics.PathParser$PathDataNode[],androidx.core.graphics.PathParser$PathDataNode[]) -> updateNodes
-androidx.core.graphics.PathParser$ExtractFloatResult -> androidx.core.graphics.PathParser$ExtractFloatResult:
-    199:200:void <init>() -> <init>
-androidx.core.graphics.PathParser$PathDataNode -> androidx.core.graphics.PathParser$PathDataNode:
-    352:355:void <init>(char,float[]) -> <init>
-    357:360:void <init>(androidx.core.graphics.PathParser$PathDataNode) -> <init>
-    398:643:void addCommand(android.graphics.Path,float[],char,char,float[]) -> addCommand
-    750:792:void arcToBezier(android.graphics.Path,double,double,double,double,double,double,double,double,double) -> arcToBezier
-    657:720:void drawArc(android.graphics.Path,float,float,float,float,float,float,float,boolean,boolean) -> drawArc
-    388:393:void interpolatePathDataNode(androidx.core.graphics.PathParser$PathDataNode,androidx.core.graphics.PathParser$PathDataNode,float) -> interpolatePathDataNode
-    369:375:void nodesToPath(androidx.core.graphics.PathParser$PathDataNode[],android.graphics.Path) -> nodesToPath
 androidx.core.graphics.TypefaceCompat -> androidx.core.graphics.TypefaceCompat:
     46:63:void <clinit>() -> <clinit>
     190:202:android.graphics.Typeface create(android.content.Context,android.graphics.Typeface,int) -> create
@@ -4156,7 +3804,6 @@ androidx.core.graphics.TypefaceCompat -> androidx.core.graphics.TypefaceCompat:
     143:149:android.graphics.Typeface createFromResourcesFontFile(android.content.Context,android.content.res.Resources,int,java.lang.String,int) -> createFromResourcesFontFile
     88:88:java.lang.String createResourceUid(android.content.res.Resources,int,int) -> createResourceUid
     76:76:android.graphics.Typeface findFromCache(android.content.res.Resources,int,int) -> findFromCache
-    169:175:android.graphics.Typeface getBestFontFromFamily(android.content.Context,android.graphics.Typeface,int) -> getBestFontFromFamily
 androidx.core.graphics.TypefaceCompatApi21Impl -> androidx.core.graphics.TypefaceCompatApi21Impl:
     65:65:void <clinit>() -> <clinit>
     54:54:void <init>() -> <init>
@@ -4201,28 +3848,16 @@ androidx.core.graphics.TypefaceCompatApi28Impl -> androidx.core.graphics.Typefac
     61:65:java.lang.reflect.Method obtainCreateFromFamiliesWithDefaultMethod(java.lang.Class) -> obtainCreateFromFamiliesWithDefaultMethod
 androidx.core.graphics.TypefaceCompatBaseImpl -> androidx.core.graphics.TypefaceCompatBaseImpl:
     45:52:void <init>() -> <init>
-    219:223:void addFontFamily(android.graphics.Typeface,androidx.core.content.res.FontResourcesParserCompat$FontFamilyFilesResourceEntry) -> addFontFamily
-    169:178:android.graphics.Typeface createFromFontFamilyFilesResourceEntry(android.content.Context,androidx.core.content.res.FontResourcesParserCompat$FontFamilyFilesResourceEntry,android.content.res.Resources,int) -> createFromFontFamilyFilesResourceEntry
-    137:148:android.graphics.Typeface createFromFontInfo(android.content.Context,android.os.CancellationSignal,androidx.core.provider.FontsContractCompat$FontInfo[],int) -> createFromFontInfo
     114:129:android.graphics.Typeface createFromInputStream(android.content.Context,java.io.InputStream) -> createFromInputStream
     187:202:android.graphics.Typeface createFromResourcesFontFile(android.content.Context,android.content.res.Resources,int,java.lang.String,int) -> createFromResourcesFontFile
-    153:153:androidx.core.content.res.FontResourcesParserCompat$FontFileResourceEntry findBestEntry(androidx.core.content.res.FontResourcesParserCompat$FontFamilyFilesResourceEntry,int) -> findBestEntry
     61:76:java.lang.Object findBestFont(java.lang.Object[],int,androidx.core.graphics.TypefaceCompatBaseImpl$StyleExtractor) -> findBestFont
     99:99:androidx.core.provider.FontsContractCompat$FontInfo findBestInfo(androidx.core.provider.FontsContractCompat$FontInfo[],int) -> findBestInfo
-    211:215:androidx.core.content.res.FontResourcesParserCompat$FontFamilyFilesResourceEntry getFontFamily(android.graphics.Typeface) -> getFontFamily
-    80:94:long getUniqueKey(android.graphics.Typeface) -> getUniqueKey
 androidx.core.graphics.TypefaceCompatBaseImpl$1 -> androidx.core.graphics.TypefaceCompatBaseImpl$1:
     99:99:void <init>(androidx.core.graphics.TypefaceCompatBaseImpl) -> <init>
     99:99:int getWeight(java.lang.Object) -> getWeight
     102:102:int getWeight(androidx.core.provider.FontsContractCompat$FontInfo) -> getWeight
     99:99:boolean isItalic(java.lang.Object) -> isItalic
     107:107:boolean isItalic(androidx.core.provider.FontsContractCompat$FontInfo) -> isItalic
-androidx.core.graphics.TypefaceCompatBaseImpl$2 -> androidx.core.graphics.TypefaceCompatBaseImpl$2:
-    153:153:void <init>(androidx.core.graphics.TypefaceCompatBaseImpl) -> <init>
-    153:153:int getWeight(java.lang.Object) -> getWeight
-    156:156:int getWeight(androidx.core.content.res.FontResourcesParserCompat$FontFileResourceEntry) -> getWeight
-    153:153:boolean isItalic(java.lang.Object) -> isItalic
-    161:161:boolean isItalic(androidx.core.content.res.FontResourcesParserCompat$FontFileResourceEntry) -> isItalic
 androidx.core.graphics.TypefaceCompatUtil -> androidx.core.graphics.TypefaceCompatUtil:
     175:181:void closeQuietly(java.io.Closeable) -> closeQuietly
     124:134:java.nio.ByteBuffer copyToDirectBuffer(android.content.Context,android.content.res.Resources,int) -> copyToDirectBuffer
@@ -4232,24 +3867,19 @@ androidx.core.graphics.TypefaceCompatUtil -> androidx.core.graphics.TypefaceComp
     88:93:java.nio.ByteBuffer mmap(java.io.File) -> mmap
     103:114:java.nio.ByteBuffer mmap(android.content.Context,android.os.CancellationSignal,android.net.Uri) -> mmap
 androidx.core.graphics.drawable.DrawableCompat -> androidx.core.graphics.drawable.DrawableCompat:
-    188:191:void applyTheme(android.graphics.drawable.Drawable,android.content.res.Resources$Theme) -> applyTheme
-    197:200:boolean canApplyTheme(android.graphics.drawable.Drawable) -> canApplyTheme
     221:252:void clearColorFilter(android.graphics.drawable.Drawable) -> clearColorFilter
-    177:178:int getAlpha(android.graphics.drawable.Drawable) -> getAlpha
-    210:213:android.graphics.ColorFilter getColorFilter(android.graphics.drawable.Drawable) -> getColorFilter
-    391:413:int getLayoutDirection(android.graphics.drawable.Drawable) -> getLayoutDirection
-    268:273:void inflate(android.graphics.drawable.Drawable,android.content.res.Resources,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.content.res.Resources$Theme) -> inflate
+    391:392:int getLayoutDirection(android.graphics.drawable.Drawable) -> getLayoutDirection
     95:96:boolean isAutoMirrored(android.graphics.drawable.Drawable) -> isAutoMirrored
     62:63:void jumpToCurrentState(android.graphics.drawable.Drawable) -> jumpToCurrentState
     78:81:void setAutoMirrored(android.graphics.drawable.Drawable,boolean) -> setAutoMirrored
     110:113:void setHotspot(android.graphics.drawable.Drawable,float,float) -> setHotspot
     123:126:void setHotspotBounds(android.graphics.drawable.Drawable,int,int,int,int) -> setHotspotBounds
-    354:377:boolean setLayoutDirection(android.graphics.drawable.Drawable,int) -> setLayoutDirection
+    354:355:boolean setLayoutDirection(android.graphics.drawable.Drawable,int) -> setLayoutDirection
     135:140:void setTint(android.graphics.drawable.Drawable,int) -> setTint
     149:154:void setTintList(android.graphics.drawable.Drawable,android.content.res.ColorStateList) -> setTintList
     163:168:void setTintMode(android.graphics.drawable.Drawable,android.graphics.PorterDuff$Mode) -> setTintMode
     334:337:android.graphics.drawable.Drawable unwrap(android.graphics.drawable.Drawable) -> unwrap
-    307:318:android.graphics.drawable.Drawable wrap(android.graphics.drawable.Drawable) -> wrap
+    307:308:android.graphics.drawable.Drawable wrap(android.graphics.drawable.Drawable) -> wrap
 androidx.core.graphics.drawable.IconCompat -> androidx.core.graphics.drawable.IconCompat:
     177:177:void <clinit>() -> <clinit>
     125:309:void <init>() -> <init>
@@ -4265,68 +3895,6 @@ androidx.core.graphics.drawable.IconCompatParcelizer -> androidx.core.graphics.d
     11:11:void <init>() -> <init>
     14:23:androidx.core.graphics.drawable.IconCompat read(androidx.versionedparcelable.VersionedParcel) -> read
     28:51:void write(androidx.core.graphics.drawable.IconCompat,androidx.versionedparcelable.VersionedParcel) -> write
-androidx.core.graphics.drawable.WrappedDrawableApi14 -> androidx.core.graphics.drawable.WrappedDrawableApi14:
-    41:41:void <clinit>() -> <clinit>
-    52:55:void <init>(androidx.core.graphics.drawable.WrappedDrawableState,android.content.res.Resources) -> <init>
-    62:66:void <init>(android.graphics.drawable.Drawable) -> <init>
-    86:87:void draw(android.graphics.Canvas) -> draw
-    103:105:int getChangingConfigurations() -> getChangingConfigurations
-    210:214:android.graphics.drawable.Drawable$ConstantState getConstantState() -> getConstantState
-    152:152:android.graphics.drawable.Drawable getCurrent() -> getCurrent
-    177:177:int getIntrinsicHeight() -> getIntrinsicHeight
-    172:172:int getIntrinsicWidth() -> getIntrinsicWidth
-    187:187:int getMinimumHeight() -> getMinimumHeight
-    182:182:int getMinimumWidth() -> getMinimumWidth
-    162:162:int getOpacity() -> getOpacity
-    192:192:boolean getPadding(android.graphics.Rect) -> getPadding
-    146:146:int[] getState() -> getState
-    167:167:android.graphics.Region getTransparentRegion() -> getTransparentRegion
-    322:322:android.graphics.drawable.Drawable getWrappedDrawable() -> getWrappedDrawable
-    251:252:void invalidateDrawable(android.graphics.drawable.Drawable) -> invalidateDrawable
-    204:204:boolean isAutoMirrored() -> isAutoMirrored
-    353:353:boolean isCompatTintEnabled() -> isCompatTintEnabled
-    130:133:boolean isStateful() -> isStateful
-    81:82:void jumpToCurrentState() -> jumpToCurrentState
-    220:230:android.graphics.drawable.Drawable mutate() -> mutate
-    243:243:androidx.core.graphics.drawable.WrappedDrawableState mutateConstantState() -> mutateConstantState
-    91:94:void onBoundsChange(android.graphics.Rect) -> onBoundsChange
-    272:272:boolean onLevelChange(int) -> onLevelChange
-    259:260:void scheduleDrawable(android.graphics.drawable.Drawable,java.lang.Runnable,long) -> scheduleDrawable
-    120:121:void setAlpha(int) -> setAlpha
-    198:199:void setAutoMirrored(boolean) -> setAutoMirrored
-    98:99:void setChangingConfigurations(int) -> setChangingConfigurations
-    125:126:void setColorFilter(android.graphics.ColorFilter) -> setColorFilter
-    110:111:void setDither(boolean) -> setDither
-    115:116:void setFilterBitmap(boolean) -> setFilterBitmap
-    138:140:boolean setState(int[]) -> setState
-    277:278:void setTint(int) -> setTint
-    282:284:void setTintList(android.content.res.ColorStateList) -> setTintList
-    288:290:void setTintMode(android.graphics.PorterDuff$Mode) -> setTintMode
-    157:157:boolean setVisible(boolean,boolean) -> setVisible
-    330:349:void setWrappedDrawable(android.graphics.drawable.Drawable) -> setWrappedDrawable
-    267:268:void unscheduleDrawable(android.graphics.drawable.Drawable,java.lang.Runnable) -> unscheduleDrawable
-    74:77:void updateLocalState(android.content.res.Resources) -> updateLocalState
-    293:314:boolean updateTint(int[]) -> updateTint
-androidx.core.graphics.drawable.WrappedDrawableApi21 -> androidx.core.graphics.drawable.WrappedDrawableApi21:
-    43:45:void <init>(android.graphics.drawable.Drawable) -> <init>
-    48:50:void <init>(androidx.core.graphics.drawable.WrappedDrawableState,android.content.res.Resources) -> <init>
-    140:147:void findAndCacheIsProjectedDrawableMethod() -> findAndCacheIsProjectedDrawableMethod
-    70:70:android.graphics.Rect getDirtyBounds() -> getDirtyBounds
-    64:65:void getOutline(android.graphics.Outline) -> getOutline
-    113:120:boolean isCompatTintEnabled() -> isCompatTintEnabled
-    128:136:boolean isProjected() -> isProjected
-    54:55:void setHotspot(float,float) -> setHotspot
-    59:60:void setHotspotBounds(int,int,int,int) -> setHotspotBounds
-    102:108:boolean setState(int[]) -> setState
-    84:89:void setTint(int) -> setTint
-    75:80:void setTintList(android.content.res.ColorStateList) -> setTintList
-    93:98:void setTintMode(android.graphics.PorterDuff$Mode) -> setTintMode
-androidx.core.graphics.drawable.WrappedDrawableState -> androidx.core.graphics.drawable.WrappedDrawableState:
-    32:42:void <init>(androidx.core.graphics.drawable.WrappedDrawableState) -> <init>
-    66:66:boolean canConstantState() -> canConstantState
-    61:62:int getChangingConfigurations() -> getChangingConfigurations
-    47:47:android.graphics.drawable.Drawable newDrawable() -> newDrawable
-    53:56:android.graphics.drawable.Drawable newDrawable(android.content.res.Resources) -> newDrawable
 androidx.core.math.MathUtils -> androidx.core.math.MathUtils:
     39:44:float clamp(float,float,float) -> clamp
     81:86:int clamp(int,int,int) -> clamp
@@ -4453,7 +4021,7 @@ androidx.core.text.PrecomputedTextCompat$Params -> androidx.core.text.Precompute
     255:255:int getHyphenationFrequency() -> getHyphenationFrequency
     231:231:android.text.TextDirectionHeuristic getTextDirection() -> getTextDirection
     218:218:android.text.TextPaint getTextPaint() -> getTextPaint
-    347:360:int hashCode() -> hashCode
+    347:351:int hashCode() -> hashCode
     374:395:java.lang.String toString() -> toString
 androidx.core.text.PrecomputedTextCompat$Params$Builder -> androidx.core.text.PrecomputedTextCompat$Params$Builder:
     115:128:void <init>(android.text.TextPaint) -> <init>
@@ -4567,7 +4135,6 @@ androidx.core.view.KeyEventDispatcher -> androidx.core.view.KeyEventDispatcher:
     80:92:boolean dispatchKeyEvent(androidx.core.view.KeyEventDispatcher$Component,android.view.View,android.view.Window$Callback,android.view.KeyEvent) -> dispatchKeyEvent
     142:157:android.content.DialogInterface$OnKeyListener getDialogKeyListenerPre28(android.app.Dialog) -> getDialogKeyListenerPre28
 androidx.core.view.LayoutInflaterCompat -> androidx.core.view.LayoutInflaterCompat:
-    71:90:void forceSetFactory2(android.view.LayoutInflater,android.view.LayoutInflater$Factory2) -> forceSetFactory2
     139:152:void setFactory2(android.view.LayoutInflater,android.view.LayoutInflater$Factory2) -> setFactory2
 androidx.core.view.MarginLayoutParamsCompat -> androidx.core.view.MarginLayoutParamsCompat:
     61:62:int getMarginEnd(android.view.ViewGroup$MarginLayoutParams) -> getMarginEnd
@@ -4621,8 +4188,6 @@ androidx.core.view.ViewCompat -> androidx.core.view.ViewCompat:
     3935:3935:androidx.core.view.ViewCompat$AccessibilityViewProperty accessibilityHeadingProperty() -> accessibilityHeadingProperty
     1263:1270:void addAccessibilityAction(android.view.View,androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat) -> addAccessibilityAction
     1972:1980:androidx.core.view.ViewPropertyAnimatorCompat animate(android.view.View) -> animate
-    3255:3264:void compatOffsetLeftAndRight(android.view.View,int) -> compatOffsetLeftAndRight
-    3207:3216:void compatOffsetTopAndBottom(android.view.View,int) -> compatOffsetTopAndBottom
     3758:3761:boolean dispatchUnhandledKeyEventBeforeCallback(android.view.View,android.view.KeyEvent) -> dispatchUnhandledKeyEventBeforeCallback
     3750:3753:boolean dispatchUnhandledKeyEventBeforeHierarchy(android.view.View,android.view.KeyEvent) -> dispatchUnhandledKeyEventBeforeHierarchy
     884:891:androidx.core.view.AccessibilityDelegateCompat getAccessibilityDelegate(android.view.View) -> getAccessibilityDelegate
@@ -4630,12 +4195,11 @@ androidx.core.view.ViewCompat -> androidx.core.view.ViewCompat:
     1693:1694:int getAccessibilityLiveRegion(android.view.View) -> getAccessibilityLiveRegion
     3874:3874:java.lang.CharSequence getAccessibilityPaneTitle(android.view.View) -> getAccessibilityPaneTitle
     1298:1304:java.util.List getActionList(android.view.View) -> getActionList
-    2573:2577:android.content.res.ColorStateList getBackgroundTintList(android.view.View) -> getBackgroundTintList
-    2618:2622:android.graphics.PorterDuff$Mode getBackgroundTintMode(android.view.View) -> getBackgroundTintMode
+    2573:2574:android.content.res.ColorStateList getBackgroundTintList(android.view.View) -> getBackgroundTintList
+    2618:2619:android.graphics.PorterDuff$Mode getBackgroundTintMode(android.view.View) -> getBackgroundTintMode
     3299:3300:android.graphics.Rect getClipBounds(android.view.View) -> getClipBounds
     3420:3421:android.view.Display getDisplay(android.view.View) -> getDisplay
-    2256:2259:float getElevation(android.view.View) -> getElevation
-    479:488:android.graphics.Rect getEmptyTempRect() -> getEmptyTempRect
+    2256:2257:float getElevation(android.view.View) -> getElevation
     2382:2383:boolean getFitsSystemWindows(android.view.View) -> getFitsSystemWindows
     1054:1055:int getImportantForAccessibility(android.view.View) -> getImportantForAccessibility
     744:747:int getImportantForAutofill(android.view.View) -> getImportantForAutofill
@@ -4645,22 +4209,22 @@ androidx.core.view.ViewCompat -> androidx.core.view.ViewCompat:
     896:901:androidx.core.view.AccessibilityDelegateCompat getOrCreateAccessibilityDelegateCompat(android.view.View) -> getOrCreateAccessibilityDelegateCompat
     1760:1761:int getPaddingEnd(android.view.View) -> getPaddingEnd
     1744:1745:int getPaddingStart(android.view.View) -> getPaddingStart
-    2313:2319:java.lang.String getTransitionName(android.view.View) -> getTransitionName
+    2313:2314:java.lang.String getTransitionName(android.view.View) -> getTransitionName
     2326:2327:int getWindowSystemUiVisibility(android.view.View) -> getWindowSystemUiVisibility
-    3146:3149:float getZ(android.view.View) -> getZ
+    3146:3147:float getZ(android.view.View) -> getZ
     3321:3322:boolean hasOnClickListeners(android.view.View) -> hasOnClickListeners
     2533:2534:boolean hasOverlappingRendering(android.view.View) -> hasOverlappingRendering
     941:942:boolean hasTransientState(android.view.View) -> hasTransientState
     3914:3915:boolean isAccessibilityHeading(android.view.View) -> isAccessibilityHeading
     3309:3310:boolean isAttachedToWindow(android.view.View) -> isAttachedToWindow
     3115:3116:boolean isLaidOut(android.view.View) -> isLaidOut
-    2697:2703:boolean isNestedScrollingEnabled(android.view.View) -> isNestedScrollingEnabled
+    2697:2698:boolean isNestedScrollingEnabled(android.view.View) -> isNestedScrollingEnabled
     2546:2547:boolean isPaddingRelative(android.view.View) -> isPaddingRelative
     3801:3802:boolean isScreenReaderFocusable(android.view.View) -> isScreenReaderFocusable
     4026:4049:void notifyViewAccessibilityStateChangedIfNeeded(android.view.View,int) -> notifyViewAccessibilityStateChangedIfNeeded
     3224:3252:void offsetLeftAndRight(android.view.View,int) -> offsetLeftAndRight
     3176:3204:void offsetTopAndBottom(android.view.View,int) -> offsetTopAndBottom
-    2452:2460:androidx.core.view.WindowInsetsCompat onApplyWindowInsets(android.view.View,androidx.core.view.WindowInsetsCompat) -> onApplyWindowInsets
+    2452:2458:androidx.core.view.WindowInsetsCompat onApplyWindowInsets(android.view.View,androidx.core.view.WindowInsetsCompat) -> onApplyWindowInsets
     656:657:void onInitializeAccessibilityNodeInfo(android.view.View,androidx.core.view.accessibility.AccessibilityNodeInfoCompat) -> onInitializeAccessibilityNodeInfo
     3878:3878:androidx.core.view.ViewCompat$AccessibilityViewProperty paneTitleProperty() -> paneTitleProperty
     1154:1155:boolean performAccessibilityAction(android.view.View,int,android.os.Bundle) -> performAccessibilityAction
@@ -4688,7 +4252,6 @@ androidx.core.view.ViewCompat -> androidx.core.view.ViewCompat:
     3373:3376:void setScrollIndicators(android.view.View,int,int) -> setScrollIndicators
     2291:2299:void setTransitionName(android.view.View,java.lang.String) -> setTransitionName
     2738:2743:void stopNestedScroll(android.view.View) -> stopNestedScroll
-    3267:3270:void tickleInvalidationFlag(android.view.View) -> tickleInvalidationFlag
 androidx.core.view.ViewCompat$1 -> androidx.core.view.ViewCompat$1:
     2427:2427:void <init>(androidx.core.view.OnApplyWindowInsetsListener) -> <init>
     2430:2432:android.view.WindowInsets onApplyWindowInsets(android.view.View,android.view.WindowInsets) -> onApplyWindowInsets
@@ -4749,7 +4312,7 @@ androidx.core.view.ViewConfigurationCompat -> androidx.core.view.ViewConfigurati
     98:101:float getScaledVerticalScrollFactor(android.view.ViewConfiguration,android.content.Context) -> getScaledVerticalScrollFactor
     141:147:boolean shouldShowMenuShortcutsWhenKeyboardPresent(android.view.ViewConfiguration,android.content.Context) -> shouldShowMenuShortcutsWhenKeyboardPresent
 androidx.core.view.ViewGroupCompat -> androidx.core.view.ViewGroupCompat:
-    157:163:boolean isTransitionGroup(android.view.ViewGroup) -> isTransitionGroup
+    157:158:boolean isTransitionGroup(android.view.ViewGroup) -> isTransitionGroup
 androidx.core.view.ViewParentCompat -> androidx.core.view.ViewParentCompat:
     424:435:boolean onNestedFling(android.view.ViewParent,android.view.View,float,float,boolean) -> onNestedFling
     461:472:boolean onNestedPreFling(android.view.ViewParent,android.view.View,float,float) -> onNestedPreFling
@@ -4787,13 +4350,13 @@ androidx.core.view.ViewPropertyAnimatorListenerAdapter -> androidx.core.view.Vie
 androidx.core.view.WindowInsetsCompat -> androidx.core.view.WindowInsetsCompat:
     35:37:void <init>(java.lang.Object) -> <init>
     377:384:boolean equals(java.lang.Object) -> equals
-    113:116:int getSystemWindowInsetBottom() -> getSystemWindowInsetBottom
-    62:65:int getSystemWindowInsetLeft() -> getSystemWindowInsetLeft
-    96:99:int getSystemWindowInsetRight() -> getSystemWindowInsetRight
-    79:82:int getSystemWindowInsetTop() -> getSystemWindowInsetTop
+    113:114:int getSystemWindowInsetBottom() -> getSystemWindowInsetBottom
+    62:63:int getSystemWindowInsetLeft() -> getSystemWindowInsetLeft
+    96:97:int getSystemWindowInsetRight() -> getSystemWindowInsetRight
+    79:80:int getSystemWindowInsetTop() -> getSystemWindowInsetTop
     389:389:int hashCode() -> hashCode
-    164:167:boolean isConsumed() -> isConsumed
-    213:217:androidx.core.view.WindowInsetsCompat replaceSystemWindowInsets(int,int,int,int) -> replaceSystemWindowInsets
+    164:165:boolean isConsumed() -> isConsumed
+    213:215:androidx.core.view.WindowInsetsCompat replaceSystemWindowInsets(int,int,int,int) -> replaceSystemWindowInsets
     397:397:java.lang.Object unwrap(androidx.core.view.WindowInsetsCompat) -> unwrap
     393:393:androidx.core.view.WindowInsetsCompat wrap(java.lang.Object) -> wrap
 androidx.core.view.accessibility.AccessibilityClickableSpanCompat -> androidx.core.view.accessibility.AccessibilityClickableSpanCompat:
@@ -4885,14 +4448,14 @@ androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityAction
     548:549:void <init>(int,java.lang.CharSequence,java.lang.Class) -> <init>
     553:563:void <init>(java.lang.Object,int,java.lang.CharSequence,androidx.core.view.accessibility.AccessibilityViewCommand,java.lang.Class) -> <init>
     626:626:androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat createReplacementAction(java.lang.CharSequence,androidx.core.view.accessibility.AccessibilityViewCommand) -> createReplacementAction
-    571:574:int getId() -> getId
+    571:572:int getId() -> getId
     601:617:boolean perform(android.view.View,android.os.Bundle) -> perform
 androidx.core.view.accessibility.AccessibilityNodeInfoCompat$CollectionInfoCompat -> androidx.core.view.accessibility.AccessibilityNodeInfoCompat$CollectionInfoCompat:
     701:703:void <init>(java.lang.Object) -> <init>
-    671:675:androidx.core.view.accessibility.AccessibilityNodeInfoCompat$CollectionInfoCompat obtain(int,int,boolean,int) -> obtain
+    671:672:androidx.core.view.accessibility.AccessibilityNodeInfoCompat$CollectionInfoCompat obtain(int,int,boolean,int) -> obtain
 androidx.core.view.accessibility.AccessibilityNodeInfoCompat$CollectionItemInfoCompat -> androidx.core.view.accessibility.AccessibilityNodeInfoCompat$CollectionItemInfoCompat:
     825:827:void <init>(java.lang.Object) -> <init>
-    792:796:androidx.core.view.accessibility.AccessibilityNodeInfoCompat$CollectionItemInfoCompat obtain(int,int,int,int,boolean,boolean) -> obtain
+    792:793:androidx.core.view.accessibility.AccessibilityNodeInfoCompat$CollectionItemInfoCompat obtain(int,int,int,int,boolean,boolean) -> obtain
 androidx.core.view.accessibility.AccessibilityNodeProviderCompat -> androidx.core.view.accessibility.AccessibilityNodeProviderCompat:
     104:112:void <init>() -> <init>
     120:122:void <init>(java.lang.Object) -> <init>
@@ -4975,15 +4538,15 @@ androidx.core.widget.AutoScrollHelper$ScrollAnimationRunnable -> androidx.core.w
 androidx.core.widget.AutoSizeableTextView -> androidx.core.widget.AutoSizeableTextView:
     39:39:void <clinit>() -> <clinit>
 androidx.core.widget.CompoundButtonCompat -> androidx.core.widget.CompoundButtonCompat:
-    123:145:android.graphics.drawable.Drawable getButtonDrawable(android.widget.CompoundButton) -> getButtonDrawable
-    71:77:android.content.res.ColorStateList getButtonTintList(android.widget.CompoundButton) -> getButtonTintList
+    123:124:android.graphics.drawable.Drawable getButtonDrawable(android.widget.CompoundButton) -> getButtonDrawable
+    71:72:android.content.res.ColorStateList getButtonTintList(android.widget.CompoundButton) -> getButtonTintList
     57:62:void setButtonTintList(android.widget.CompoundButton,android.content.res.ColorStateList) -> setButtonTintList
     93:98:void setButtonTintMode(android.widget.CompoundButton,android.graphics.PorterDuff$Mode) -> setButtonTintMode
 androidx.core.widget.EdgeEffectCompat -> androidx.core.widget.EdgeEffectCompat:
     152:157:void onPull(android.widget.EdgeEffect,float,float) -> onPull
 androidx.core.widget.ImageViewCompat -> androidx.core.widget.ImageViewCompat:
-    37:41:android.content.res.ColorStateList getImageTintList(android.widget.ImageView) -> getImageTintList
-    74:78:android.graphics.PorterDuff$Mode getImageTintMode(android.widget.ImageView) -> getImageTintMode
+    37:38:android.content.res.ColorStateList getImageTintList(android.widget.ImageView) -> getImageTintList
+    74:75:android.graphics.PorterDuff$Mode getImageTintMode(android.widget.ImageView) -> getImageTintMode
     50:67:void setImageTintList(android.widget.ImageView,android.content.res.ColorStateList) -> setImageTintList
     88:105:void setImageTintMode(android.widget.ImageView,android.graphics.PorterDuff$Mode) -> setImageTintMode
 androidx.core.widget.ListViewAutoScrollHelper -> androidx.core.widget.ListViewAutoScrollHelper:
@@ -5115,7 +4678,7 @@ androidx.core.widget.NestedScrollView$SavedState$1 -> androidx.core.widget.Neste
     2065:2065:androidx.core.widget.NestedScrollView$SavedState[] newArray(int) -> newArray
 androidx.core.widget.PopupWindowCompat -> androidx.core.widget.PopupWindowCompat:
     90:110:void setOverlapAnchor(android.widget.PopupWindow,boolean) -> setOverlapAnchor
-    153:175:void setWindowLayoutType(android.widget.PopupWindow,int) -> setWindowLayoutType
+    153:155:void setWindowLayoutType(android.widget.PopupWindow,int) -> setWindowLayoutType
     68:81:void showAsDropDown(android.widget.PopupWindow,android.view.View,int,int,int) -> showAsDropDown
 androidx.core.widget.TextViewCompat -> androidx.core.widget.TextViewCompat:
     295:296:android.graphics.drawable.Drawable[] getCompoundDrawablesRelative(android.widget.TextView) -> getCompoundDrawablesRelative
@@ -7672,17 +7235,11 @@ androidx.transition.FragmentTransitionSupport$3 -> androidx.transition.FragmentT
 androidx.transition.FragmentTransitionSupport$4 -> androidx.transition.FragmentTransitionSupport$4:
     301:301:void <init>(androidx.transition.FragmentTransitionSupport,android.graphics.Rect) -> <init>
 androidx.transition.ObjectAnimatorUtils -> androidx.transition.ObjectAnimatorUtils:
-    28:31:android.animation.ObjectAnimator ofPointF(java.lang.Object,android.util.Property,android.graphics.Path) -> ofPointF
+    28:29:android.animation.ObjectAnimator ofPointF(java.lang.Object,android.util.Property,android.graphics.Path) -> ofPointF
 androidx.transition.PathMotion -> androidx.transition.PathMotion:
     43:44:void <init>() -> <init>
-androidx.transition.PathProperty -> androidx.transition.PathProperty:
-    40:49:void <init>(android.util.Property,android.graphics.Path) -> <init>
-    35:35:java.lang.Object get(java.lang.Object) -> get
-    53:53:java.lang.Float get(java.lang.Object) -> get
-    35:35:void set(java.lang.Object,java.lang.Object) -> set
-    58:63:void set(java.lang.Object,java.lang.Float) -> set
 androidx.transition.PropertyValuesHolderUtils -> androidx.transition.PropertyValuesHolderUtils:
-    38:41:android.animation.PropertyValuesHolder ofPointF(android.util.Property,android.graphics.Path) -> ofPointF
+    38:39:android.animation.PropertyValuesHolder ofPointF(android.util.Property,android.graphics.Path) -> ofPointF
 androidx.transition.RectEvaluator -> androidx.transition.RectEvaluator:
     39:40:void <init>() -> <init>
     25:25:java.lang.Object evaluate(float,java.lang.Object,java.lang.Object) -> evaluate
@@ -7907,11 +7464,7 @@ androidx.transition.ViewUtilsApi29 -> androidx.transition.ViewUtilsApi29:
     56:57:void transformMatrixToLocal(android.view.View,android.graphics.Matrix) -> transformMatrixToLocal
 androidx.transition.ViewUtilsBase -> androidx.transition.ViewUtilsBase:
     32:32:void <init>() -> <init>
-    176:186:void fetchSetFrame() -> fetchSetFrame
-    142:152:void setLeftTopRightBottom(android.view.View,int,int,int,int) -> setLeftTopRightBottom
     155:172:void setTransitionVisibility(android.view.View,int) -> setTransitionVisibility
-    78:89:void transformMatrixToGlobal(android.view.View,android.graphics.Matrix) -> transformMatrixToGlobal
-    92:106:void transformMatrixToLocal(android.view.View,android.graphics.Matrix) -> transformMatrixToLocal
 androidx.transition.Visibility -> androidx.transition.Visibility:
     81:81:void <clinit>() -> <clinit>
     98:101:void <init>() -> <init>
@@ -7951,294 +7504,6 @@ androidx.transition.WindowIdApi18 -> androidx.transition.WindowIdApi18:
     29:31:void <init>(android.view.View) -> <init>
     35:35:boolean equals(java.lang.Object) -> equals
     40:40:int hashCode() -> hashCode
-androidx.vectordrawable.graphics.drawable.AndroidResources -> androidx.vectordrawable.graphics.drawable.AndroidResources:
-    22:134:void <clinit>() -> <clinit>
-androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat -> androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat:
-    168:169:void <init>() -> <init>
-    172:173:void <init>(android.content.Context) -> <init>
-    156:733:void <init>(android.content.Context,androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat$AnimatedVectorDrawableCompatState,android.content.res.Resources) -> <init>
-    522:527:void applyTheme(android.content.res.Resources$Theme) -> applyTheme
-    532:536:boolean canApplyTheme() -> canApplyTheme
-    143:143:void clearColorFilter() -> clearColorFilter
-    253:255:androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat createFromXmlInner(android.content.Context,android.content.res.Resources,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.content.res.Resources$Theme) -> createFromXmlInner
-    284:292:void draw(android.graphics.Canvas) -> draw
-    321:324:int getAlpha() -> getAlpha
-    276:279:int getChangingConfigurations() -> getChangingConfigurations
-    347:350:android.graphics.ColorFilter getColorFilter() -> getColorFilter
-    265:271:android.graphics.drawable.Drawable$ConstantState getConstantState() -> getConstantState
-    143:143:android.graphics.drawable.Drawable getCurrent() -> getCurrent
-    420:423:int getIntrinsicHeight() -> getIntrinsicHeight
-    412:415:int getIntrinsicWidth() -> getIntrinsicWidth
-    143:143:int getMinimumHeight() -> getMinimumHeight
-    143:143:int getMinimumWidth() -> getMinimumWidth
-    404:407:int getOpacity() -> getOpacity
-    143:143:boolean getPadding(android.graphics.Rect) -> getPadding
-    143:143:int[] getState() -> getState
-    143:143:android.graphics.Region getTransparentRegion() -> getTransparentRegion
-    446:512:void inflate(android.content.res.Resources,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.content.res.Resources$Theme) -> inflate
-    517:518:void inflate(android.content.res.Resources,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet) -> inflate
-    428:431:boolean isAutoMirrored() -> isAutoMirrored
-    700:704:boolean isRunning() -> isRunning
-    394:397:boolean isStateful() -> isStateful
-    143:143:void jumpToCurrentState() -> jumpToCurrentState
-    193:198:android.graphics.drawable.Drawable mutate() -> mutate
-    296:301:void onBoundsChange(android.graphics.Rect) -> onBoundsChange
-    313:316:boolean onLevelChange(int) -> onLevelChange
-    305:308:boolean onStateChange(int[]) -> onStateChange
-    329:334:void setAlpha(int) -> setAlpha
-    436:441:void setAutoMirrored(boolean) -> setAutoMirrored
-    143:143:void setChangingConfigurations(int) -> setChangingConfigurations
-    143:143:void setColorFilter(int,android.graphics.PorterDuff$Mode) -> setColorFilter
-    338:343:void setColorFilter(android.graphics.ColorFilter) -> setColorFilter
-    143:143:void setFilterBitmap(boolean) -> setFilterBitmap
-    143:143:void setHotspot(float,float) -> setHotspot
-    143:143:void setHotspotBounds(int,int,int,int) -> setHotspotBounds
-    143:143:boolean setState(int[]) -> setState
-    355:361:void setTint(int) -> setTint
-    365:371:void setTintList(android.content.res.ColorStateList) -> setTintList
-    375:381:void setTintMode(android.graphics.PorterDuff$Mode) -> setTintMode
-    385:389:boolean setVisible(boolean,boolean) -> setVisible
-    682:696:void setupAnimatorsForTarget(java.lang.String,android.animation.Animator) -> setupAnimatorsForTarget
-    661:679:void setupColorAnimator(android.animation.Animator) -> setupColorAnimator
-    709:721:void start() -> start
-    725:731:void stop() -> stop
-androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat$1 -> androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat$1:
-    733:733:void <init>(androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat) -> <init>
-    736:737:void invalidateDrawable(android.graphics.drawable.Drawable) -> invalidateDrawable
-    741:742:void scheduleDrawable(android.graphics.drawable.Drawable,java.lang.Runnable,long) -> scheduleDrawable
-    746:747:void unscheduleDrawable(android.graphics.drawable.Drawable,java.lang.Runnable) -> unscheduleDrawable
-androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat$AnimatedVectorDrawableCompatState -> androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat$AnimatedVectorDrawableCompatState:
-    599:630:void <init>(android.content.Context,androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat$AnimatedVectorDrawableCompatState,android.graphics.drawable.Drawable$Callback,android.content.res.Resources) -> <init>
-    644:644:int getChangingConfigurations() -> getChangingConfigurations
-    634:634:android.graphics.drawable.Drawable newDrawable() -> newDrawable
-    639:639:android.graphics.drawable.Drawable newDrawable(android.content.res.Resources) -> newDrawable
-    648:652:void setupAnimatorSet() -> setupAnimatorSet
-androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat$AnimatedVectorDrawableDelegateState -> androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat$AnimatedVectorDrawableDelegateState:
-    548:550:void <init>(android.graphics.drawable.Drawable$ConstantState) -> <init>
-    581:581:boolean canApplyTheme() -> canApplyTheme
-    586:586:int getChangingConfigurations() -> getChangingConfigurations
-    554:558:android.graphics.drawable.Drawable newDrawable() -> newDrawable
-    563:567:android.graphics.drawable.Drawable newDrawable(android.content.res.Resources) -> newDrawable
-    572:576:android.graphics.drawable.Drawable newDrawable(android.content.res.Resources,android.content.res.Resources$Theme) -> newDrawable
-androidx.vectordrawable.graphics.drawable.AnimationUtilsCompat -> androidx.vectordrawable.graphics.drawable.AnimationUtilsCompat:
-    105:146:android.view.animation.Interpolator createInterpolatorFromXml(android.content.Context,android.content.res.Resources,android.content.res.Resources$Theme,org.xmlpull.v1.XmlPullParser) -> createInterpolatorFromXml
-    67:96:android.view.animation.Interpolator loadInterpolator(android.content.Context,int) -> loadInterpolator
-androidx.vectordrawable.graphics.drawable.AnimatorInflaterCompat -> androidx.vectordrawable.graphics.drawable.AnimatorInflaterCompat:
-    501:501:android.animation.Animator createAnimatorFromXml(android.content.Context,android.content.res.Resources,android.content.res.Resources$Theme,org.xmlpull.v1.XmlPullParser,float) -> createAnimatorFromXml
-    509:571:android.animation.Animator createAnimatorFromXml(android.content.Context,android.content.res.Resources,android.content.res.Resources$Theme,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.animation.AnimatorSet,int,float) -> createAnimatorFromXml
-    779:783:android.animation.Keyframe createNewKeyframe(android.animation.Keyframe,float) -> createNewKeyframe
-    806:811:void distributeKeyframes(android.animation.Keyframe[],float,int,int) -> distributeKeyframes
-    207:331:android.animation.PropertyValuesHolder getPVH(android.content.res.TypedArray,int,int,int,java.lang.String) -> getPVH
-    655:669:int inferValueTypeFromValues(android.content.res.TypedArray,int,int) -> inferValueTypeFromValues
-    636:650:int inferValueTypeOfKeyframe(android.content.res.Resources,android.content.res.Resources$Theme,android.util.AttributeSet,org.xmlpull.v1.XmlPullParser) -> inferValueTypeOfKeyframe
-    917:917:boolean isColorType(int) -> isColorType
-    100:105:android.animation.Animator loadAnimator(android.content.Context,int) -> loadAnimator
-    119:119:android.animation.Animator loadAnimator(android.content.Context,android.content.res.Resources,android.content.res.Resources$Theme,int) -> loadAnimator
-    129:148:android.animation.Animator loadAnimator(android.content.Context,android.content.res.Resources,android.content.res.Resources$Theme,int,float) -> loadAnimator
-    890:913:android.animation.ValueAnimator loadAnimator(android.content.Context,android.content.res.Resources,android.content.res.Resources$Theme,android.util.AttributeSet,android.animation.ValueAnimator,float,org.xmlpull.v1.XmlPullParser) -> loadAnimator
-    818:866:android.animation.Keyframe loadKeyframe(android.content.Context,android.content.res.Resources,android.content.res.Resources$Theme,android.util.AttributeSet,int,org.xmlpull.v1.XmlPullParser) -> loadKeyframe
-    872:876:android.animation.ObjectAnimator loadObjectAnimator(android.content.Context,android.content.res.Resources,android.content.res.Resources$Theme,android.util.AttributeSet,float,org.xmlpull.v1.XmlPullParser) -> loadObjectAnimator
-    692:775:android.animation.PropertyValuesHolder loadPvh(android.content.Context,android.content.res.Resources,android.content.res.Resources$Theme,org.xmlpull.v1.XmlPullParser,java.lang.String,int) -> loadPvh
-    576:627:android.animation.PropertyValuesHolder[] loadValues(android.content.Context,android.content.res.Resources,android.content.res.Resources$Theme,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet) -> loadValues
-    345:378:void parseAnimatorFromTypeArray(android.animation.ValueAnimator,android.content.res.TypedArray,android.content.res.TypedArray,float,org.xmlpull.v1.XmlPullParser) -> parseAnimatorFromTypeArray
-    390:429:void setupObjectAnimator(android.animation.ValueAnimator,android.content.res.TypedArray,int,float,org.xmlpull.v1.XmlPullParser) -> setupObjectAnimator
-    436:495:void setupPathMotion(android.graphics.Path,android.animation.ObjectAnimator,float,java.lang.String,java.lang.String) -> setupPathMotion
-androidx.vectordrawable.graphics.drawable.AnimatorInflaterCompat$PathDataEvaluator -> androidx.vectordrawable.graphics.drawable.AnimatorInflaterCompat$PathDataEvaluator:
-    166:167:void <init>() -> <init>
-    157:157:java.lang.Object evaluate(float,java.lang.Object,java.lang.Object) -> evaluate
-    185:199:androidx.core.graphics.PathParser$PathDataNode[] evaluate(float,androidx.core.graphics.PathParser$PathDataNode[],androidx.core.graphics.PathParser$PathDataNode[]) -> evaluate
-androidx.vectordrawable.graphics.drawable.ArgbEvaluator -> androidx.vectordrawable.graphics.drawable.ArgbEvaluator:
-    33:33:void <clinit>() -> <clinit>
-    32:32:void <init>() -> <init>
-    64:97:java.lang.Object evaluate(float,java.lang.Object,java.lang.Object) -> evaluate
-    43:43:androidx.vectordrawable.graphics.drawable.ArgbEvaluator getInstance() -> getInstance
-androidx.vectordrawable.graphics.drawable.PathInterpolatorCompat -> androidx.vectordrawable.graphics.drawable.PathInterpolatorCompat:
-    68:69:void <init>(android.content.Context,android.util.AttributeSet,org.xmlpull.v1.XmlPullParser) -> <init>
-    72:77:void <init>(android.content.res.Resources,android.content.res.Resources$Theme,android.util.AttributeSet,org.xmlpull.v1.XmlPullParser) -> <init>
-    195:223:float getInterpolation(float) -> getInterpolation
-    130:134:void initCubic(float,float,float,float) -> initCubic
-    137:181:void initPath(android.graphics.Path) -> initPath
-    123:127:void initQuad(float,float) -> initQuad
-    82:120:void parseInterpolatorFromTypeArray(android.content.res.TypedArray,org.xmlpull.v1.XmlPullParser) -> parseInterpolatorFromTypeArray
-androidx.vectordrawable.graphics.drawable.VectorDrawableCommon -> androidx.vectordrawable.graphics.drawable.VectorDrawableCommon:
-    29:29:void <init>() -> <init>
-    95:99:void applyTheme(android.content.res.Resources$Theme) -> applyTheme
-    103:108:void clearColorFilter() -> clearColorFilter
-    112:115:android.graphics.drawable.Drawable getCurrent() -> getCurrent
-    128:131:int getMinimumHeight() -> getMinimumHeight
-    120:123:int getMinimumWidth() -> getMinimumWidth
-    136:139:boolean getPadding(android.graphics.Rect) -> getPadding
-    144:147:int[] getState() -> getState
-    153:156:android.graphics.Region getTransparentRegion() -> getTransparentRegion
-    86:90:void jumpToCurrentState() -> jumpToCurrentState
-    45:48:boolean onLevelChange(int) -> onLevelChange
-    161:166:void setChangingConfigurations(int) -> setChangingConfigurations
-    36:41:void setColorFilter(int,android.graphics.PorterDuff$Mode) -> setColorFilter
-    78:82:void setFilterBitmap(boolean) -> setFilterBitmap
-    62:65:void setHotspot(float,float) -> setHotspot
-    70:74:void setHotspotBounds(int,int,int,int) -> setHotspotBounds
-    170:173:boolean setState(int[]) -> setState
-androidx.vectordrawable.graphics.drawable.VectorDrawableCompat -> androidx.vectordrawable.graphics.drawable.VectorDrawableCompat:
-    280:280:void <clinit>() -> <clinit>
-    311:323:void <init>() -> <init>
-    311:328:void <init>(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VectorDrawableCompatState) -> <init>
-    687:690:int applyAlpha(int,float) -> applyAlpha
-    277:277:void applyTheme(android.content.res.Resources$Theme) -> applyTheme
-    587:591:boolean canApplyTheme() -> canApplyTheme
-    277:277:void clearColorFilter() -> clearColorFilter
-    645:670:androidx.vectordrawable.graphics.drawable.VectorDrawableCompat create(android.content.res.Resources,int,android.content.res.Resources$Theme) -> create
-    681:683:androidx.vectordrawable.graphics.drawable.VectorDrawableCompat createFromXmlInner(android.content.res.Resources,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.content.res.Resources$Theme) -> createFromXmlInner
-    360:428:void draw(android.graphics.Canvas) -> draw
-    432:436:int getAlpha() -> getAlpha
-    925:928:int getChangingConfigurations() -> getChangingConfigurations
-    465:468:android.graphics.ColorFilter getColorFilter() -> getColorFilter
-    350:355:android.graphics.drawable.Drawable$ConstantState getConstantState() -> getConstantState
-    277:277:android.graphics.drawable.Drawable getCurrent() -> getCurrent
-    577:581:int getIntrinsicHeight() -> getIntrinsicHeight
-    568:572:int getIntrinsicWidth() -> getIntrinsicWidth
-    277:277:int getMinimumHeight() -> getMinimumHeight
-    277:277:int getMinimumWidth() -> getMinimumWidth
-    559:563:int getOpacity() -> getOpacity
-    277:277:boolean getPadding(android.graphics.Rect) -> getPadding
-    277:277:int[] getState() -> getState
-    345:345:java.lang.Object getTargetByName(java.lang.String) -> getTargetByName
-    277:277:android.graphics.Region getTransparentRegion() -> getTransparentRegion
-    696:702:void inflate(android.content.res.Resources,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet) -> inflate
-    707:726:void inflate(android.content.res.Resources,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.content.res.Resources$Theme) -> inflate
-    816:879:void inflateInternal(android.content.res.Resources,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.content.res.Resources$Theme) -> inflateInternal
-    933:938:void invalidateSelf() -> invalidateSelf
-    596:599:boolean isAutoMirrored() -> isAutoMirrored
-    528:534:boolean isStateful() -> isStateful
-    277:277:void jumpToCurrentState() -> jumpToCurrentState
-    332:341:android.graphics.drawable.Drawable mutate() -> mutate
-    907:909:boolean needMirroring() -> needMirroring
-    918:921:void onBoundsChange(android.graphics.Rect) -> onBoundsChange
-    539:554:boolean onStateChange(int[]) -> onStateChange
-    734:748:android.graphics.PorterDuff$Mode parseTintModeCompat(int,android.graphics.PorterDuff$Mode) -> parseTintModeCompat
-    942:947:void scheduleSelf(java.lang.Runnable,long) -> scheduleSelf
-    902:903:void setAllowCaching(boolean) -> setAllowCaching
-    441:450:void setAlpha(int) -> setAlpha
-    604:609:void setAutoMirrored(boolean) -> setAutoMirrored
-    277:277:void setChangingConfigurations(int) -> setChangingConfigurations
-    277:277:void setColorFilter(int,android.graphics.PorterDuff$Mode) -> setColorFilter
-    454:461:void setColorFilter(android.graphics.ColorFilter) -> setColorFilter
-    277:277:void setFilterBitmap(boolean) -> setFilterBitmap
-    277:277:void setHotspot(float,float) -> setHotspot
-    277:277:void setHotspotBounds(int,int,int,int) -> setHotspotBounds
-    277:277:boolean setState(int[]) -> setState
-    488:494:void setTint(int) -> setTint
-    498:509:void setTintList(android.content.res.ColorStateList) -> setTintList
-    513:524:void setTintMode(android.graphics.PorterDuff$Mode) -> setTintMode
-    951:954:boolean setVisible(boolean,boolean) -> setVisible
-    959:964:void unscheduleSelf(java.lang.Runnable) -> unscheduleSelf
-    754:812:void updateStateFromTypedArray(android.content.res.TypedArray,org.xmlpull.v1.XmlPullParser,android.content.res.Resources$Theme) -> updateStateFromTypedArray
-    477:483:android.graphics.PorterDuffColorFilter updateTintFilter(android.graphics.PorterDuffColorFilter,android.content.res.ColorStateList,android.graphics.PorterDuff$Mode) -> updateTintFilter
-androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VClipPath -> androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VClipPath:
-    1768:1770:void <init>() -> <init>
-    1773:1774:void <init>(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VClipPath) -> <init>
-    1778:1786:void inflate(android.content.res.Resources,android.util.AttributeSet,android.content.res.Resources$Theme,org.xmlpull.v1.XmlPullParser) -> inflate
-    1810:1810:boolean isClipPath() -> isClipPath
-    1792:1806:void updateStateFromTypedArray(android.content.res.TypedArray,org.xmlpull.v1.XmlPullParser) -> updateStateFromTypedArray
-androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VFullPath -> androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VFullPath:
-    1822:1837:void <init>() -> <init>
-    1822:1856:void <init>(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VFullPath) -> <init>
-    2028:2028:float getFillAlpha() -> getFillAlpha
-    2018:2018:int getFillColor() -> getFillColor
-    2007:2007:float getStrokeAlpha() -> getStrokeAlpha
-    1987:1987:int getStrokeColor() -> getStrokeColor
-    1859:1867:android.graphics.Paint$Cap getStrokeLineCap(int,android.graphics.Paint$Cap) -> getStrokeLineCap
-    1872:1880:android.graphics.Paint$Join getStrokeLineJoin(int,android.graphics.Paint$Join) -> getStrokeLineJoin
-    1997:1997:float getStrokeWidth() -> getStrokeWidth
-    2048:2048:float getTrimPathEnd() -> getTrimPathEnd
-    2058:2058:float getTrimPathOffset() -> getTrimPathOffset
-    2038:2038:float getTrimPathStart() -> getTrimPathStart
-    1890:1894:void inflate(android.content.res.Resources,android.util.AttributeSet,android.content.res.Resources$Theme,org.xmlpull.v1.XmlPullParser) -> inflate
-    1960:1960:boolean isStateful() -> isStateful
-    1965:1967:boolean onStateChanged(int[]) -> onStateChanged
-    2033:2034:void setFillAlpha(float) -> setFillAlpha
-    2023:2024:void setFillColor(int) -> setFillColor
-    2012:2013:void setStrokeAlpha(float) -> setStrokeAlpha
-    1992:1993:void setStrokeColor(int) -> setStrokeColor
-    2002:2003:void setStrokeWidth(float) -> setStrokeWidth
-    2053:2054:void setTrimPathEnd(float) -> setTrimPathEnd
-    2063:2064:void setTrimPathOffset(float) -> setTrimPathOffset
-    2043:2044:void setTrimPathStart(float) -> setTrimPathStart
-    1901:1956:void updateStateFromTypedArray(android.content.res.TypedArray,org.xmlpull.v1.XmlPullParser,android.content.res.Resources$Theme) -> updateStateFromTypedArray
-androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup -> androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup:
-    1445:1504:void <init>(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,androidx.collection.ArrayMap) -> <init>
-    1445:1507:void <init>() -> <init>
-    1510:1510:java.lang.String getGroupName() -> getGroupName
-    1514:1514:android.graphics.Matrix getLocalMatrix() -> getLocalMatrix
-    1586:1586:float getPivotX() -> getPivotX
-    1599:1599:float getPivotY() -> getPivotY
-    1573:1573:float getRotation() -> getRotation
-    1612:1612:float getScaleX() -> getScaleX
-    1625:1625:float getScaleY() -> getScaleY
-    1638:1638:float getTranslateX() -> getTranslateX
-    1651:1651:float getTranslateY() -> getTranslateY
-    1518:1522:void inflate(android.content.res.Resources,android.util.AttributeSet,android.content.res.Resources$Theme,org.xmlpull.v1.XmlPullParser) -> inflate
-    1664:1669:boolean isStateful() -> isStateful
-    1674:1678:boolean onStateChanged(int[]) -> onStateChanged
-    1591:1595:void setPivotX(float) -> setPivotX
-    1604:1608:void setPivotY(float) -> setPivotY
-    1578:1582:void setRotation(float) -> setRotation
-    1617:1621:void setScaleX(float) -> setScaleX
-    1630:1634:void setScaleY(float) -> setScaleY
-    1643:1647:void setTranslateX(float) -> setTranslateX
-    1656:1660:void setTranslateY(float) -> setTranslateY
-    1563:1568:void updateLocalMatrix() -> updateLocalMatrix
-    1529:1558:void updateStateFromTypedArray(android.content.res.TypedArray,org.xmlpull.v1.XmlPullParser) -> updateStateFromTypedArray
-androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VObject -> androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VObject:
-    1423:1423:void <init>() -> <init>
-    1423:1423:void <init>(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$1) -> <init>
-    1430:1430:boolean isStateful() -> isStateful
-    1438:1438:boolean onStateChanged(int[]) -> onStateChanged
-androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath -> androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath:
-    1687:1695:void <init>() -> <init>
-    1687:1723:void <init>(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath) -> <init>
-    1750:1750:androidx.core.graphics.PathParser$PathDataNode[] getPathData() -> getPathData
-    1733:1733:java.lang.String getPathName() -> getPathName
-    1744:1744:boolean isClipPath() -> isClipPath
-    1755:1761:void setPathData(androidx.core.graphics.PathParser$PathDataNode[]) -> setPathData
-    1726:1730:void toPath(android.graphics.Path) -> toPath
-androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPathRenderer -> androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPathRenderer:
-    1170:1170:void <clinit>() -> <clinit>
-    1171:1195:void <init>() -> <init>
-    1171:1231:void <init>(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPathRenderer) -> <init>
-    1379:1379:float cross(float,float,float,float) -> cross
-    1264:1265:void draw(android.graphics.Canvas,int,int,android.graphics.ColorFilter) -> draw
-    1239:1260:void drawGroupTree(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,android.graphics.Matrix,android.graphics.Canvas,int,int,android.graphics.ColorFilter) -> drawGroupTree
-    1269:1376:void drawPath(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath,android.graphics.Canvas,int,int,android.graphics.ColorFilter) -> drawPath
-    1213:1213:float getAlpha() -> getAlpha
-    1393:1408:float getMatrixScale(android.graphics.Matrix) -> getMatrixScale
-    1202:1202:int getRootAlpha() -> getRootAlpha
-    1412:1415:boolean isStateful() -> isStateful
-    1419:1419:boolean onStateChanged(int[]) -> onStateChanged
-    1208:1209:void setAlpha(float) -> setAlpha
-    1198:1199:void setRootAlpha(int) -> setRootAlpha
-androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VectorDrawableCompatState -> androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VectorDrawableCompatState:
-    1015:1047:void <init>(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VectorDrawableCompatState) -> <init>
-    1015:1123:void <init>() -> <init>
-    1093:1097:boolean canReuseBitmap(int,int) -> canReuseBitmap
-    1101:1108:boolean canReuseCache() -> canReuseCache
-    1084:1090:void createCachedBitmapIfNeeded(int,int) -> createCachedBitmapIfNeeded
-    1052:1054:void drawCachedBitmapWithRootAlpha(android.graphics.Canvas,android.graphics.ColorFilter,android.graphics.Rect) -> drawCachedBitmapWithRootAlpha
-    1139:1139:int getChangingConfigurations() -> getChangingConfigurations
-    1064:1074:android.graphics.Paint getPaint(android.graphics.ColorFilter) -> getPaint
-    1057:1057:boolean hasTranslucentRoot() -> hasTranslucentRoot
-    1143:1143:boolean isStateful() -> isStateful
-    1128:1128:android.graphics.drawable.Drawable newDrawable() -> newDrawable
-    1134:1134:android.graphics.drawable.Drawable newDrawable(android.content.res.Resources) -> newDrawable
-    1147:1149:boolean onStateChanged(int[]) -> onStateChanged
-    1114:1119:void updateCacheStates() -> updateCacheStates
-    1078:1081:void updateCachedBitmap(int,int) -> updateCachedBitmap
-androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VectorDrawableDelegateState -> androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VectorDrawableDelegateState:
-    975:977:void <init>(android.graphics.drawable.Drawable$ConstantState) -> <init>
-    1003:1003:boolean canApplyTheme() -> canApplyTheme
-    1008:1008:int getChangingConfigurations() -> getChangingConfigurations
-    981:983:android.graphics.drawable.Drawable newDrawable() -> newDrawable
-    988:990:android.graphics.drawable.Drawable newDrawable(android.content.res.Resources) -> newDrawable
-    995:998:android.graphics.drawable.Drawable newDrawable(android.content.res.Resources,android.content.res.Resources$Theme) -> newDrawable
 androidx.versionedparcelable.CustomVersionedParcelable -> androidx.versionedparcelable.CustomVersionedParcelable:
     27:27:void <init>() -> <init>
 androidx.versionedparcelable.ParcelImpl -> androidx.versionedparcelable.ParcelImpl:
@@ -11531,11 +10796,10 @@ com.google.android.material.button.MaterialButtonHelper -> com.google.android.ma
     159:165:void setSupportBackgroundTintList(android.content.res.ColorStateList) -> setSupportBackgroundTintList
     172:178:void setSupportBackgroundTintMode(android.graphics.PorterDuff$Mode) -> setSupportBackgroundTintMode
     354:363:void updateButtonShape(com.google.android.material.shape.ShapeAppearanceModel) -> updateButtonShape
-    236:239:void updateMaskBounds(int,int) -> updateMaskBounds
     289:301:void updateStroke() -> updateStroke
     155:155:android.graphics.drawable.InsetDrawable wrapDrawableWithInset(android.graphics.drawable.Drawable) -> wrapDrawableWithInset
 com.google.android.material.canvas.CanvasCompat -> com.google.android.material.canvas.CanvasCompat:
-    58:61:int saveLayerAlpha(android.graphics.Canvas,float,float,float,float,int) -> saveLayerAlpha
+    58:59:int saveLayerAlpha(android.graphics.Canvas,float,float,float,float,int) -> saveLayerAlpha
 com.google.android.material.card.MaterialCardView -> com.google.android.material.card.MaterialCardView:
     90:94:void <clinit>() -> <clinit>
     77:77:float access$001(com.google.android.material.card.MaterialCardView) -> access$001
@@ -11763,7 +11027,7 @@ com.google.android.material.chip.Chip -> com.google.android.material.chip.Chip:
     2038:2041:void setTextStartPaddingResource(int) -> setTextStartPaddingResource
     2199:2199:boolean shouldEnsureMinTouchTargetSize() -> shouldEnsureMinTouchTargetSize
     455:458:void unapplyChipDrawable(com.google.android.material.chip.ChipDrawable) -> unapplyChipDrawable
-    280:288:void updateAccessibilityDelegate() -> updateAccessibilityDelegate
+    280:281:void updateAccessibilityDelegate() -> updateAccessibilityDelegate
     417:424:void updateBackgroundDrawable() -> updateBackgroundDrawable
     444:452:void updateFrameworkRippleBackground() -> updateFrameworkRippleBackground
     316:332:void updatePaddingInternal() -> updatePaddingInternal
@@ -11994,7 +11258,7 @@ com.google.android.material.chip.ChipGroup$PassThroughHierarchyChangeListener ->
     444:461:void onChildViewAdded(android.view.View,android.view.View) -> onChildViewAdded
     465:472:void onChildViewRemoved(android.view.View,android.view.View) -> onChildViewRemoved
 com.google.android.material.circularreveal.CircularRevealCompat -> com.google.android.material.circularreveal.CircularRevealCompat:
-    57:79:android.animation.Animator createCircularReveal(com.google.android.material.circularreveal.CircularRevealWidget,float,float,float) -> createCircularReveal
+    57:77:android.animation.Animator createCircularReveal(com.google.android.material.circularreveal.CircularRevealWidget,float,float,float) -> createCircularReveal
     123:123:android.animation.Animator$AnimatorListener createCircularRevealListener(com.google.android.material.circularreveal.CircularRevealWidget) -> createCircularRevealListener
 com.google.android.material.circularreveal.CircularRevealCompat$1 -> com.google.android.material.circularreveal.CircularRevealCompat$1:
     123:123:void <init>(com.google.android.material.circularreveal.CircularRevealWidget) -> <init>
@@ -12085,9 +11349,9 @@ com.google.android.material.datepicker.CalendarStyle -> com.google.android.mater
     74:116:void <init>(android.content.Context) -> <init>
 com.google.android.material.datepicker.DateStrings -> com.google.android.material.datepicker.DateStrings:
     76:76:java.lang.String getMonthDayOfWeekDay(long) -> getMonthDayOfWeekDay
-    80:83:java.lang.String getMonthDayOfWeekDay(long,java.util.Locale) -> getMonthDayOfWeekDay
+    80:81:java.lang.String getMonthDayOfWeekDay(long,java.util.Locale) -> getMonthDayOfWeekDay
     87:87:java.lang.String getYearMonthDayOfWeekDay(long) -> getYearMonthDayOfWeekDay
-    91:94:java.lang.String getYearMonthDayOfWeekDay(long,java.util.Locale) -> getYearMonthDayOfWeekDay
+    91:92:java.lang.String getYearMonthDayOfWeekDay(long,java.util.Locale) -> getYearMonthDayOfWeekDay
 com.google.android.material.datepicker.DaysOfWeekAdapter -> com.google.android.material.datepicker.DaysOfWeekAdapter:
     49:49:void <clinit>() -> <clinit>
     52:56:void <init>() -> <init>
@@ -12251,8 +11515,6 @@ com.google.android.material.datepicker.UtcDates -> com.google.android.material.d
     171:171:android.icu.text.DateFormat getAbbrMonthWeekdayDayFormat(java.util.Locale) -> getAbbrMonthWeekdayDayFormat
     117:120:android.icu.text.DateFormat getAndroidFormat(java.lang.String,java.util.Locale) -> getAndroidFormat
     92:98:java.util.Calendar getDayCopy(java.util.Calendar) -> getDayCopy
-    124:126:java.text.DateFormat getFormat(int,java.util.Locale) -> getFormat
-    202:202:java.text.DateFormat getFullFormat(java.util.Locale) -> getFullFormat
     154:156:java.text.SimpleDateFormat getSimpleFormat(java.lang.String,java.util.Locale) -> getSimpleFormat
     42:42:java.util.TimeZone getTimeZone() -> getTimeZone
     51:51:java.util.Calendar getTodayCalendar() -> getTodayCalendar
@@ -12387,7 +11649,7 @@ com.google.android.material.floatingactionbutton.FloatingActionButton -> com.goo
     620:621:void addOnHideAnimationListener(android.animation.Animator$AnimatorListener) -> addOnHideAnimationListener
     588:589:void addOnShowAnimationListener(android.animation.Animator$AnimatorListener) -> addOnShowAnimationListener
     1349:1350:void addTransformationCallback(com.google.android.material.animation.TransformationCallback) -> addTransformationCallback
-    1442:1445:com.google.android.material.floatingactionbutton.FloatingActionButtonImpl createImpl() -> createImpl
+    1442:1443:com.google.android.material.floatingactionbutton.FloatingActionButtonImpl createImpl() -> createImpl
     816:818:void drawableStateChanged() -> drawableStateChanged
     355:355:android.content.res.ColorStateList getBackgroundTintList() -> getBackgroundTintList
     381:381:android.graphics.PorterDuff$Mode getBackgroundTintMode() -> getBackgroundTintMode
@@ -12521,11 +11783,9 @@ com.google.android.material.floatingactionbutton.FloatingActionButtonImpl -> com
     293:307:void calculateImageMatrixFromScale(float,android.graphics.Matrix) -> calculateImageMatrixFromScale
     563:600:android.animation.AnimatorSet createAnimator(com.google.android.material.animation.MotionSpec,float,float,float) -> createAnimator
     769:775:android.animation.ValueAnimator createElevationAnimator(com.google.android.material.floatingactionbutton.FloatingActionButtonImpl$ShadowAnimatorImpl) -> createElevationAnimator
-    743:744:com.google.android.material.shape.MaterialShapeDrawable createShapeDrawable() -> createShapeDrawable
     656:656:android.graphics.drawable.Drawable getContentBackground() -> getContentBackground
     552:557:com.google.android.material.animation.MotionSpec getDefaultHideMotionSpec() -> getDefaultHideMotionSpec
     543:548:com.google.android.material.animation.MotionSpec getDefaultShowMotionSpec() -> getDefaultShowMotionSpec
-    246:246:float getElevation() -> getElevation
     352:352:boolean getEnsureMinTouchTargetSize() -> getEnsureMinTouchTargetSize
     340:340:com.google.android.material.animation.MotionSpec getHideMotionSpec() -> getHideMotionSpec
     250:250:float getHoveredFocusedTranslationZ() -> getHoveredFocusedTranslationZ
@@ -12535,20 +11795,14 @@ com.google.android.material.floatingactionbutton.FloatingActionButtonImpl -> com
     326:326:com.google.android.material.shape.ShapeAppearanceModel getShapeAppearance() -> getShapeAppearance
     331:331:com.google.android.material.animation.MotionSpec getShowMotionSpec() -> getShowMotionSpec
     417:477:void hide(com.google.android.material.floatingactionbutton.FloatingActionButtonImpl$InternalVisibilityChangedListener,boolean) -> hide
-    191:210:void initializeBackgroundDrawable(android.content.res.ColorStateList,android.graphics.PorterDuff$Mode,android.content.res.ColorStateList,int) -> initializeBackgroundDrawable
     758:763:boolean isOrWillBeHidden() -> isOrWillBeHidden
     748:753:boolean isOrWillBeShown() -> isOrWillBeShown
-    381:382:void jumpDrawableToCurrentState() -> jumpDrawableToCurrentState
     697:704:void onAttachedToWindow() -> onAttachedToWindow
-    661:661:void onCompatShadowChanged() -> onCompatShadowChanged
     707:712:void onDetachedFromWindow() -> onDetachedFromWindow
-    377:378:void onDrawableStateChanged(int[]) -> onDrawableStateChanged
-    366:368:void onElevationsChanged(float,float,float) -> onElevationsChanged
     682:690:void onPaddingUpdated(android.graphics.Rect) -> onPaddingUpdated
     719:724:void onPreDraw() -> onPreDraw
     647:652:void onScaleChanged() -> onScaleChanged
     639:644:void onTranslationChanged() -> onTranslationChanged
-    715:715:boolean requirePreDrawListener() -> requirePreDrawListener
     213:219:void setBackgroundTintList(android.content.res.ColorStateList) -> setBackgroundTintList
     222:225:void setBackgroundTintMode(android.graphics.PorterDuff$Mode) -> setBackgroundTintMode
     239:243:void setElevation(float) -> setElevation
@@ -12563,11 +11817,9 @@ com.google.android.material.floatingactionbutton.FloatingActionButtonImpl -> com
     360:362:void setShadowPaddingEnabled(boolean) -> setShadowPaddingEnabled
     310:322:void setShapeAppearance(com.google.android.material.shape.ShapeAppearanceModel) -> setShapeAppearance
     335:336:void setShowMotionSpec(com.google.android.material.animation.MotionSpec) -> setShowMotionSpec
-    693:693:boolean shouldAddPadding() -> shouldAddPadding
     846:846:boolean shouldAnimateVisibilityChange() -> shouldAnimateVisibilityChange
     348:348:boolean shouldExpandBoundsForA11y() -> shouldExpandBoundsForA11y
     480:540:void show(com.google.android.material.floatingactionbutton.FloatingActionButtonImpl$InternalVisibilityChangedListener,boolean) -> show
-    850:868:void updateFromViewRotation() -> updateFromViewRotation
     281:282:void updateImageMatrixScale() -> updateImageMatrixScale
     664:668:void updatePadding() -> updatePadding
     371:374:void updateShapeElevation(float) -> updateShapeElevation
@@ -12785,10 +12037,6 @@ com.google.android.material.internal.NavigationMenuView -> com.google.android.ma
 com.google.android.material.internal.StateListAnimator -> com.google.android.material.internal.StateListAnimator:
     37:44:void <init>() -> <init>
     62:65:void addState(int[],android.animation.ValueAnimator) -> addState
-    98:102:void cancel() -> cancel
-    110:114:void jumpToCurrentState() -> jumpToCurrentState
-    69:90:void setState(int[]) -> setState
-    93:95:void start(com.google.android.material.internal.StateListAnimator$Tuple) -> start
 com.google.android.material.internal.StateListAnimator$1 -> com.google.android.material.internal.StateListAnimator$1:
     45:45:void <init>(com.google.android.material.internal.StateListAnimator) -> <init>
     48:51:void onAnimationEnd(android.animation.Animator) -> onAnimationEnd
@@ -13013,8 +12261,6 @@ com.google.android.material.shape.MaterialShapeDrawable -> com.google.android.ma
     616:621:void setInterpolation(float) -> setInterpolation
     509:516:void setPadding(int,int,int,int) -> setPadding
     630:634:void setParentAbsoluteElevation(float) -> setParentAbsoluteElevation
-    864:867:void setShadowColor(int) -> setShadowColor
-    771:775:void setShadowCompatRotation(int) -> setShadowCompatRotation
     242:244:void setShapeAppearanceModel(com.google.android.material.shape.ShapeAppearanceModel) -> setShapeAppearanceModel
     390:392:void setStroke(float,int) -> setStroke
     401:403:void setStroke(float,android.content.res.ColorStateList) -> setStroke
@@ -14988,6 +14234,8 @@ com.google.zxing.qrcode.detector.FinderPatternInfo -> com.google.zxing.qrcode.de
     38:38:com.google.zxing.qrcode.detector.FinderPattern getBottomLeft() -> getBottomLeft
     42:42:com.google.zxing.qrcode.detector.FinderPattern getTopLeft() -> getTopLeft
     46:46:com.google.zxing.qrcode.detector.FinderPattern getTopRight() -> getTopRight
+com.journeyapps.barcodescanner.BarcodeCallback -> com.journeyapps.barcodescanner.BarcodeCallback:
+    30:30:void possibleResultPoints(java.util.List) -> possibleResultPoints
 com.journeyapps.barcodescanner.BarcodeResult -> com.journeyapps.barcodescanner.BarcodeResult:
     32:37:void <init>(com.google.zxing.Result,com.journeyapps.barcodescanner.SourceData) -> <init>
     146:146:com.google.zxing.BarcodeFormat getBarcodeFormat() -> getBarcodeFormat
@@ -15681,12 +14929,6 @@ com.madhabdhakal.dropbox.examples.android.NetworkMonitor$1 -> com.madhabdhakal.d
 com.madhabdhakal.dropbox.examples.android.PicassoClient -> com.madhabdhakal.dropbox.examples.android.PicassoClient:
     26:26:com.squareup.picasso.Picasso getPicasso() -> getPicasso
     18:22:void init(android.content.Context,com.dropbox.core.v2.DbxClientV2) -> init
-com.madhabdhakal.dropbox.examples.android.Splash -> com.madhabdhakal.dropbox.examples.android.Splash:
-    10:10:void <init>() -> <init>
-    13:26:void onCreate(android.os.Bundle) -> onCreate
-com.madhabdhakal.dropbox.examples.android.Splash$1 -> com.madhabdhakal.dropbox.examples.android.Splash$1:
-    18:18:void <init>(com.madhabdhakal.dropbox.examples.android.Splash) -> <init>
-    21:24:void run() -> run
 com.madhabdhakal.dropbox.examples.android.TimeService -> com.madhabdhakal.dropbox.examples.android.TimeService:
     21:28:void <init>() -> <init>
     21:21:android.os.Handler access$000(com.madhabdhakal.dropbox.examples.android.TimeService) -> access$000
@@ -17535,16 +16777,6 @@ okhttp3.Cookie -> okhttp3.Cookie:
     144:144:java.lang.String toString() -> toString
     215:246:java.lang.String toString$okhttp(boolean) -> toString$okhttp
     49:49:java.lang.String value() -> value
-okhttp3.Cookie$$ExternalSyntheticBackport0 -> okhttp3.Cookie$$ExternalSyntheticBackport0:
-# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
-# {"id":"com.android.tools.r8.synthesized"}
-    int okhttp3.Cookie$$InternalSyntheticBackport$0$b420cae2050b9b42b2bee39d535257074bbb3e690c0bebd452b3ef48f50cfea3$0.m(long) -> m
-      # {"id":"com.android.tools.r8.synthesized"}
-okhttp3.Cookie$$ExternalSyntheticBackport1 -> okhttp3.Cookie$$ExternalSyntheticBackport1:
-# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
-# {"id":"com.android.tools.r8.synthesized"}
-    int okhttp3.Cookie$$InternalSyntheticBackport$0$b420cae2050b9b42b2bee39d535257074bbb3e690c0bebd452b3ef48f50cfea3$1.m(boolean) -> m
-      # {"id":"com.android.tools.r8.synthesized"}
 okhttp3.Cookie$Companion -> okhttp3.Cookie$Companion:
 # {"id":"sourceFile","fileName":"Cookie.kt"}
     330:330:void <init>(kotlin.jvm.internal.DefaultConstructorMarker) -> <init>

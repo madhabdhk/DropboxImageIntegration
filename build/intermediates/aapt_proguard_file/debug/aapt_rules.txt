@@ -4,7 +4,6 @@
 -keep class com.journeyapps.barcodescanner.CaptureActivity { <init>(); }
 -keep class com.madhabdhakal.dropbox.examples.android.FilesActivity { <init>(); }
 -keep class com.madhabdhakal.dropbox.examples.android.NetworkMonitor { <init>(); }
--keep class com.madhabdhakal.dropbox.examples.android.Splash { <init>(); }
 -keep class com.madhabdhakal.dropbox.examples.android.TimeService { <init>(); }
 -keep class com.madhabdhakal.dropbox.examples.android.UserActivity { <init>(); }
 -keep class com.squareup.picasso.PicassoProvider { <init>(); }

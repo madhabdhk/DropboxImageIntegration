@@ -6,37 +6,37 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="19"
-8-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml
+8-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml
+9-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-11-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:6:5-81
-11-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:6:22-78
+11-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:6:5-81
+11-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:6:22-78
 12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-12-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:7:5-79
-12-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:7:22-76
+12-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:7:5-79
+12-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:7:22-76
 13    <uses-permission android:name="android.permission.INTERNET" />
-13-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:8:5-67
-13-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:8:22-64
+13-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:8:5-67
+13-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:8:22-64
 14    <uses-permission android:name="android.permission.CAMERA" />
-14-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:9:5-65
-14-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:9:22-62
+14-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:9:5-65
+14-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:9:22-62
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:10:5-79
-15-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:10:22-76
+15-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:10:5-79
+15-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:10:22-76
 16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-16-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:11:5-80
-16-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:11:22-77
+16-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:11:5-80
+16-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:11:22-77
 17    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-17-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:12:5-78
-17-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:12:22-75
+17-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:12:5-78
+17-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:12:22-75
 18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-18-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:13:5-76
-18-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:13:22-73
+18-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:13:5-76
+18-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:13:22-73
 19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-19-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:14:5-81
-19-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:14:22-78
+19-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:14:5-81
+19-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:14:22-78
 20
 21    <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
 22    <uses-feature
@@ -78,153 +78,144 @@
 40-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mdhakal\.gradle\caches\transforms-3\fae3a1278cb76b179f1583e5ba6a8b41\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
 41
 42    <application
-42-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:17:5-83:19
+42-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:17:5-78:19
 43        android:allowBackup="false"
-43-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:18:9-36
+43-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:18:9-36
 44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 44-->[androidx.core:core:1.1.0] C:\Users\mdhakal\.gradle\caches\transforms-3\3d102c6224c72669675d14cbb57e3e6d\transformed\core-1.1.0\AndroidManifest.xml:24:18-86
 45        android:debuggable="true"
 46        android:icon="@drawable/logo"
-46-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:19:9-38
+46-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:19:9-38
 47        android:label="@string/app_name"
-47-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:20:9-41
+47-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:20:9-41
 48        android:requestLegacyExternalStorage="true"
-48-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:21:9-52
+48-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:21:9-52
 49        android:supportsRtl="false"
-49-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:22:9-36
-50        android:theme="@style/AppTheme" >
-50-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:23:9-40
-51        <activity
-51-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:24:9-34:20
-52            android:name="com.madhabdhakal.dropbox.examples.android.Splash"
-52-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:25:13-76
-53            android:exported="true"
-53-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:26:13-36
-54            android:label="@string/app_name"
-54-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:27:13-45
-55            android:screenOrientation="portrait"
-55-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:28:13-49
-56            android:windowSoftInputMode="adjustPan" >
-56-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:29:13-52
+49-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:22:9-36
+50        android:testOnly="true"
+51        android:theme="@style/AppTheme" >
+51-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:23:9-40
+52        <activity
+52-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:24:9-33:20
+53            android:name="com.madhabdhakal.dropbox.examples.android.UserActivity"
+53-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:25:13-82
+54            android:configChanges="orientation|keyboardHidden|screenSize"
+54-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:26:13-74
+55            android:exported="true"
+55-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:27:13-36
+56            android:screenOrientation="portrait" >
+56-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:28:13-49
 57            <intent-filter>
-57-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:30:13-33:29
+57-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:29:13-32:29
 58                <action android:name="android.intent.action.MAIN" />
-58-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:31:17-69
-58-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:31:25-66
+58-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:30:17-69
+58-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:30:25-66
 59
 60                <category android:name="android.intent.category.LAUNCHER" />
-60-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:32:17-77
-60-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:32:27-74
+60-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:31:17-77
+60-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:31:27-74
 61            </intent-filter>
 62        </activity>
 63        <activity
-63-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:35:9-38:61
-64            android:name="com.madhabdhakal.dropbox.examples.android.UserActivity"
-64-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:36:13-82
-65            android:configChanges="orientation|keyboardHidden|screenSize"
-65-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:37:13-74
-66            android:screenOrientation="portrait" />
-66-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:38:13-49
-67        <activity
-67-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:39:9-41:60
-68            android:name="com.madhabdhakal.dropbox.examples.android.FilesActivity"
-68-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:40:13-83
-69            android:label="@string/title_activity_files" />
-69-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:41:13-57
-70        <activity
-70-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:44:9-56:20
-71            android:name="com.dropbox.core.android.AuthActivity"
-71-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:45:13-65
-72            android:configChanges="orientation|keyboard"
-72-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:46:13-57
-73            android:launchMode="singleTask" >
-73-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:47:13-44
-74            <intent-filter>
-74-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:48:13-55:29
-75
-76                <!-- Change this to be db- followed by your app key -->
-77                <data android:scheme="db-srs3n02bzojpz1x" />
-77-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:50:17-61
-77-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:50:23-58
-78
-79                <action android:name="android.intent.action.VIEW" />
-79-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:51:17-69
-79-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:51:25-66
-80
-81                <category android:name="android.intent.category.BROWSABLE" />
-81-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:53:17-78
-81-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:53:27-75
-82                <category android:name="android.intent.category.DEFAULT" />
-82-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:54:17-76
-82-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:54:27-73
-83            </intent-filter>
-84        </activity>
-85
-86        <provider
-86-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:59:9-67:20
-87            android:name="androidx.core.content.FileProvider"
-87-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:60:13-62
-88            android:authorities="com.example.android.UserActivity"
-88-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:61:13-67
-89            android:exported="false"
-89-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:62:13-37
-90            android:grantUriPermissions="true" >
-90-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:63:13-47
-91            <meta-data
-91-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:64:13-66:64
-92                android:name="android.support.FILE_PROVIDER_PATHS"
-92-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:65:17-67
-93                android:resource="@xml/file_paths" />
-93-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:66:17-51
-94        </provider>
-95
-96        <receiver
-96-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:69:9-76:20
-97            android:name="com.madhabdhakal.dropbox.examples.android.NetworkMonitor"
-97-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:70:13-84
-98            android:label="NetworkMonitor" >
-98-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:71:13-43
-99            <intent-filter>
-99-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:72:13-75:29
-100                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-100-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:73:17-79
-100-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:73:25-76
-101                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
-101-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:74:17-78
-101-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:74:25-75
-102            </intent-filter>
-103        </receiver>
+63-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:34:9-36:60
+64            android:name="com.madhabdhakal.dropbox.examples.android.FilesActivity"
+64-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:35:13-83
+65            android:label="@string/title_activity_files" />
+65-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:36:13-57
+66        <activity
+66-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:39:9-51:20
+67            android:name="com.dropbox.core.android.AuthActivity"
+67-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:40:13-65
+68            android:configChanges="orientation|keyboard"
+68-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:41:13-57
+69            android:launchMode="singleTask" >
+69-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:42:13-44
+70            <intent-filter>
+70-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:43:13-50:29
+71
+72                <!-- Change this to be db- followed by your app key -->
+73                <data android:scheme="db-srs3n02bzojpz1x" />
+73-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:45:17-61
+73-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:45:23-58
+74
+75                <action android:name="android.intent.action.VIEW" />
+75-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:46:17-69
+75-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:46:25-66
+76
+77                <category android:name="android.intent.category.BROWSABLE" />
+77-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:48:17-78
+77-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:48:27-75
+78                <category android:name="android.intent.category.DEFAULT" />
+78-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:49:17-76
+78-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:49:27-73
+79            </intent-filter>
+80        </activity>
+81
+82        <provider
+82-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:54:9-62:20
+83            android:name="androidx.core.content.FileProvider"
+83-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:55:13-62
+84            android:authorities="com.example.android.UserActivity"
+84-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:56:13-67
+85            android:exported="false"
+85-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:57:13-37
+86            android:grantUriPermissions="true" >
+86-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:58:13-47
+87            <meta-data
+87-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:59:13-61:64
+88                android:name="android.support.FILE_PROVIDER_PATHS"
+88-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:60:17-67
+89                android:resource="@xml/file_paths" />
+89-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:61:17-51
+90        </provider>
+91
+92        <receiver
+92-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:64:9-71:20
+93            android:name="com.madhabdhakal.dropbox.examples.android.NetworkMonitor"
+93-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:65:13-84
+94            android:label="NetworkMonitor" >
+94-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:66:13-43
+95            <intent-filter>
+95-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:67:13-70:29
+96                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+96-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:68:17-79
+96-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:68:25-76
+97                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+97-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:69:17-78
+97-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:69:25-75
+98            </intent-filter>
+99        </receiver>
+100
+101        <service
+101-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:73:9-75:43
+102            android:name="com.madhabdhakal.dropbox.examples.android.TimeService"
+102-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:74:13-81
+103            android:label="TimeService" />
+103-->C:\Users\mdhakal\Desktop\Android Apps APK\DropboxImageIntegration\src\main\AndroidManifest.xml:75:13-40
 104
-105        <service
-105-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:78:9-80:43
-106            android:name="com.madhabdhakal.dropbox.examples.android.TimeService"
-106-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:79:13-81
-107            android:label="TimeService" />
-107-->C:\Users\mdhakal\Desktop\Android Apps APK\POD Dropbox Integration Vr5\src\main\AndroidManifest.xml:80:13-40
-108
-109        <provider
-109-->[com.squareup.picasso:picasso:2.71828] C:\Users\mdhakal\.gradle\caches\transforms-3\e389b3bc764814cf4686d6fc2a1e5d1b\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
-110            android:name="com.squareup.picasso.PicassoProvider"
-110-->[com.squareup.picasso:picasso:2.71828] C:\Users\mdhakal\.gradle\caches\transforms-3\e389b3bc764814cf4686d6fc2a1e5d1b\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
-111            android:authorities="com.dropbox.core.examples.android.com.squareup.picasso"
-111-->[com.squareup.picasso:picasso:2.71828] C:\Users\mdhakal\.gradle\caches\transforms-3\e389b3bc764814cf4686d6fc2a1e5d1b\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
-112            android:exported="false" />
-112-->[com.squareup.picasso:picasso:2.71828] C:\Users\mdhakal\.gradle\caches\transforms-3\e389b3bc764814cf4686d6fc2a1e5d1b\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
-113
-114        <activity
-114-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mdhakal\.gradle\caches\transforms-3\fae3a1278cb76b179f1583e5ba6a8b41\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
-115            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-115-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mdhakal\.gradle\caches\transforms-3\fae3a1278cb76b179f1583e5ba6a8b41\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
-116            android:clearTaskOnLaunch="true"
-116-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mdhakal\.gradle\caches\transforms-3\fae3a1278cb76b179f1583e5ba6a8b41\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
-117            android:screenOrientation="sensorLandscape"
-117-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mdhakal\.gradle\caches\transforms-3\fae3a1278cb76b179f1583e5ba6a8b41\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
-118            android:stateNotNeeded="true"
-118-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mdhakal\.gradle\caches\transforms-3\fae3a1278cb76b179f1583e5ba6a8b41\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
-119            android:theme="@style/zxing_CaptureTheme"
-119-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mdhakal\.gradle\caches\transforms-3\fae3a1278cb76b179f1583e5ba6a8b41\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
-120            android:windowSoftInputMode="stateAlwaysHidden" />
-120-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mdhakal\.gradle\caches\transforms-3\fae3a1278cb76b179f1583e5ba6a8b41\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
-121    </application>
-122
-123</manifest>
+105        <provider
+105-->[com.squareup.picasso:picasso:2.71828] C:\Users\mdhakal\.gradle\caches\transforms-3\e389b3bc764814cf4686d6fc2a1e5d1b\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+106            android:name="com.squareup.picasso.PicassoProvider"
+106-->[com.squareup.picasso:picasso:2.71828] C:\Users\mdhakal\.gradle\caches\transforms-3\e389b3bc764814cf4686d6fc2a1e5d1b\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+107            android:authorities="com.dropbox.core.examples.android.com.squareup.picasso"
+107-->[com.squareup.picasso:picasso:2.71828] C:\Users\mdhakal\.gradle\caches\transforms-3\e389b3bc764814cf4686d6fc2a1e5d1b\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+108            android:exported="false" />
+108-->[com.squareup.picasso:picasso:2.71828] C:\Users\mdhakal\.gradle\caches\transforms-3\e389b3bc764814cf4686d6fc2a1e5d1b\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+109
+110        <activity
+110-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mdhakal\.gradle\caches\transforms-3\fae3a1278cb76b179f1583e5ba6a8b41\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+111            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+111-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mdhakal\.gradle\caches\transforms-3\fae3a1278cb76b179f1583e5ba6a8b41\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+112            android:clearTaskOnLaunch="true"
+112-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mdhakal\.gradle\caches\transforms-3\fae3a1278cb76b179f1583e5ba6a8b41\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+113            android:screenOrientation="sensorLandscape"
+113-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mdhakal\.gradle\caches\transforms-3\fae3a1278cb76b179f1583e5ba6a8b41\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+114            android:stateNotNeeded="true"
+114-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mdhakal\.gradle\caches\transforms-3\fae3a1278cb76b179f1583e5ba6a8b41\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+115            android:theme="@style/zxing_CaptureTheme"
+115-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mdhakal\.gradle\caches\transforms-3\fae3a1278cb76b179f1583e5ba6a8b41\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+116            android:windowSoftInputMode="stateAlwaysHidden" />
+116-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mdhakal\.gradle\caches\transforms-3\fae3a1278cb76b179f1583e5ba6a8b41\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+117    </application>
+118
+119</manifest>
